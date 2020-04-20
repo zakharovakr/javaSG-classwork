@@ -10,7 +10,7 @@ public class BarelyControlledChaos {
         String colorTwo = getRandomColor();
 
         int weight = getRandomNumber(5, 200);
-        int distance = getRandomNumber(5, 200);
+        int distance = getRandomNumber(10, 20);
         int number = getRandomNumber(10000, 20000);
         int time = getRandomNumber(2, 6);
 
