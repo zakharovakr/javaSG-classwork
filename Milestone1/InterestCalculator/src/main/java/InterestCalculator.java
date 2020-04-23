@@ -29,7 +29,7 @@ public class InterestCalculator {
         for (int i = 1; i <= yearAmount; i++) {
             System.out.println("Year " + i + ":");
             System.out.println("Began with: " + currencyFormatter.format(principalAmount));
-            
+
             interest = 0;
             initialAmount = principalAmount;
 
