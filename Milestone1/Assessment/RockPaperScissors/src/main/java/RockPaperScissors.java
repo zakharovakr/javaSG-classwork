@@ -142,6 +142,10 @@ public class RockPaperScissors {
                     break;//break out of the loop if the entry is valid
                 } else if (keepPlaying.contains("y")) {
                     wannaPlay = true;
+                    //resetting the game score
+                    tieScore = 0;
+                    userWinScore = 0;
+                    computerWinScore = 0;
                     break;
                 } else {
                     System.out.println("I need y or n.");
