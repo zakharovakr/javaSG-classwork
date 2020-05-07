@@ -109,21 +109,21 @@ public class RockPaperScissors {
 
             //defining game winner
             System.out.println("");
-            if ((tieScore > computerWinScore) && (tieScore > userWinScore)) {
+            if (computerWinScore == userWinScore) {
                 System.out.print("Your score: " + userWinScore + ", ");
                 System.out.print("Computer score: " + computerWinScore + ", ");
                 System.out.print("Tie score: " + tieScore + ".");
 
                 System.out.println("\n***Friendship wins!!! (it's a tie).***");
 
-            } else if ((userWinScore > computerWinScore) && (userWinScore > tieScore)) {
+            } else if (userWinScore > computerWinScore) {
                 System.out.print("Your score: " + userWinScore + ", ");
                 System.out.print("Computer score: " + computerWinScore + ", ");
                 System.out.print("Tie score: " + tieScore + ".");
 
                 System.out.println("\n***You won this game!!! Yay!***");
 
-            } else if ((computerWinScore > userWinScore) && (computerWinScore > tieScore)) {
+            } else if (computerWinScore > userWinScore) {
                 System.out.print("Your score: " + userWinScore + ", ");
                 System.out.print("Computer score: " + computerWinScore + ", ");
                 System.out.print("Tie score: " + tieScore + ".");
