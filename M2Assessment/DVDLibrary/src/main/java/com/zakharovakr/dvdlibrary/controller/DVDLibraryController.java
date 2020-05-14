@@ -12,6 +12,8 @@ import com.zakharovakr.dvdlibrary.ui.DVDView;
 import com.zakharovakr.dvdlibrary.ui.UserIO;
 import com.zakharovakr.dvdlibrary.ui.UserIOConsoleImpl;
 
+import java.util.List;
+
 /**
  *
  * @author kristinazakharova
@@ -30,16 +32,16 @@ public class DVDLibraryController {
 
             switch (menuSelection) {
                 case 1:
-                    io.print("LIST DVDs");
+                    listDVDs();
                     break;
                 case 2:
                     createDVD();
                     break;
                 case 3:
-                    io.print("VIEW DVD");
+                    viewDVD();
                     break;
                 case 4:
-                    io.print("REMOVE DVD");
+                    removeDVD();
                     break;
                 case 5:
                     io.print("EDIT DVD");
@@ -65,5 +67,25 @@ public class DVDLibraryController {
         DVD newDVD = view.getNewDVDInfo();
         dao.addDVD(newDVD.getTitle(), newDVD);
         view.displayCreateSuccessBanner();
+    }
+
+    private void listDVDs() {
+        view.displayDisplayAllBanner();
+        List<DVD> dvdList = dao.getAllDVDs();
+        view.displayDVDList(dvdList);
+    }
+
+    private void viewDVD() {
+        view.displayDisplayDVDBanner();
+        String title = view.getDVDTitleChoice();
+        DVD dvd = dao.getDVD(title); //the search is case sensitive. If i have time later, change it
+        view.displayDVD(dvd);
+    }
+
+    private void removeDVD() {
+        view.displayRemoveDVDBanner();
+        String title = view.getDVDTitleChoice();
+        DVD removedDVD = dao.removeDVD(title); //the search is case sensitive. If i have time later, change it
+        view.displayRemoveResult(removedDVD);
     }
 }

@@ -7,6 +7,8 @@ package com.zakharovakr.dvdlibrary.ui;
 
 import com.zakharovakr.dvdlibrary.dto.DVD;
 
+import java.util.List;
+
 /**
  *
  * @author kristinazakharova
@@ -57,5 +59,74 @@ public class DVDView {
     // and waits for the user to hit Enter to continue
     public void displayCreateSuccessBanner() {
         io.readString("DVD successfully created. Please hit enter to continue");
+    }
+
+
+    public void displayDVDList(List<DVD> dvdList) {
+        for (DVD currentDVD : dvdList) {
+            String DVDInfo = String.format("Title: %s, Release: %s, MPAARating: %s, Director: %s, Studio: %s, Your Note: %s",
+                    currentDVD.getTitle(),
+                    currentDVD.getReleaseDate(),
+                    currentDVD.getMPAARating(),
+                    currentDVD.getDirectorName(),
+                    currentDVD.getStudio(),
+                    currentDVD.getUserNote());
+            io.print(DVDInfo);
+        }
+        io.readString("These are all the DVDs in your collection. Please hit enter to continue.");
+    }
+
+    //method to show the Display All DVDs banner
+    public void displayDisplayAllBanner() {
+        io.print("=== Display All DVDs ===");
+    }
+
+    //shows the Display DVD banner
+    public void displayDisplayDVDBanner () {
+        io.print("=== Display DVD ===");
+    }
+
+    //asks the user for the title of DVD they wish to display
+    public String getDVDTitleChoice() {
+        return io.readString("Please enter the DVD title.");
+    }
+
+    //displays a DVD's information to the user
+    public void displayDVD(DVD dvd) {
+        if (dvd != null) {
+            io.print("Title: " + dvd.getTitle());
+            io.print("Release Date: " + dvd.getReleaseDate());
+            io.print("MPAARating: " + dvd.getMPAARating());
+            io.print("Director: " + dvd.getDirectorName());
+            io.print("Studio: " + dvd.getStudio());
+            io.print("Your note: " + dvd.getUserNote());
+        } else {
+            io.print("No such DVD.");
+        }
+        io.readString("Please hit enter to continue.");
+    }
+
+    //display the Remove DVD banner
+    public void displayRemoveDVDBanner () {
+        io.print("=== Remove DVD ===");
+    }
+
+    //display the results of our remove
+    /*public void displayRemoveResult(Student studentRecord) {
+    if(studentRecord != null){
+      io.print("Student successfully removed.");
+    }else{
+      io.print("No such student.");
+    }
+    io.readString("Please hit enter to continue.");
+}*/
+
+    public void displayRemoveResult(DVD dvdRecord) {
+        if(dvdRecord != null){
+            io.print("DVD successfully removed.");
+        } else {
+            io.print("No such DVD.");
+        }
+        io.readString("Please hit enter to continue.");
     }
 }

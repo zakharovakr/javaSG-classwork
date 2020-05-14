@@ -7,19 +7,13 @@ package com.zakharovakr.dvdlibrary.dao;
 
 import com.zakharovakr.dvdlibrary.dto.DVD;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  *
  * @author kristinazakharova
  */
 public class DVDLibraryDaoFileImpl implements DVDLibraryDao {
-
-    /*private Map<String, Student> students = new HashMap<>();
-    * Student prevStudent = students.put(studentId, student);
-    return prevStudent;*/
 
     //creating a new Hashmap to hold DVD objects
     private Map<String, DVD> dvds = new HashMap<>();
@@ -32,17 +26,18 @@ public class DVDLibraryDaoFileImpl implements DVDLibraryDao {
 
     @Override
     public List<DVD> getAllDVDs() {
-        throw new UnsupportedOperationException("Not supported yet.");
+        return new ArrayList<>(dvds.values());
     }
 
     @Override
     public DVD getDVD(String title) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        return dvds.get(title);
     }
 
     @Override
     public DVD removeDVD(String title) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        DVD removedDVD = dvds.remove(title);
+        return removedDVD;
     }
 
     @Override
