@@ -6,7 +6,7 @@
 package com.zakharovakr.dvdlibrary.controller;
 
 import com.zakharovakr.dvdlibrary.dao.DVDLibraryDao;
-import com.zakharovakr.dvdlibrary.dao.DVDLibraryDaoFileImpl;
+import com.zakharovakr.dvdlibrary.dao.DVDLibraryDaoException;
 import com.zakharovakr.dvdlibrary.dto.DVD;
 import com.zakharovakr.dvdlibrary.ui.DVDView;
 
@@ -17,41 +17,54 @@ import java.util.List;
  * @author kristinazakharova
  */
 public class DVDLibraryController {
-    private DVDView view = new DVDView();
-    private DVDLibraryDao dao = new DVDLibraryDaoFileImpl();
+    //private DVDView view = new DVDView();
+    //private DVDLibraryDao dao = new DVDLibraryDaoFileImpl(); removing
+
+    DVDView view;
+    DVDLibraryDao dao;
+
+    //constructor for dependency injection
+    public DVDLibraryController(DVDLibraryDao dao, DVDView view) {
+        this.dao = dao;
+        this.view = view;
+    }
 
     public void run() {
         boolean keepGoing = true;
         int menuSelection = 0;
-        while (keepGoing) {
+        try {
+            while (keepGoing) {
 
-            menuSelection = getMenuSelection();
+                menuSelection = getMenuSelection();
 
-            switch (menuSelection) {
-                case 1:
-                    listDVDs();
-                    break;
-                case 2:
-                    createDVD();
-                    break;
-                case 3:
-                    viewDVD();
-                    break;
-                case 4:
-                    removeDVD();
-                    break;
-                case 5:
-                    editDVD();
-                    break;
-                case 6:
-                    keepGoing = false;
-                    break;
-                default:
-                    unknownCommand();
+                switch (menuSelection) {
+                    case 1:
+                        listDVDs();
+                        break;
+                    case 2:
+                        createDVD();
+                        break;
+                    case 3:
+                        viewDVD();
+                        break;
+                    case 4:
+                        removeDVD();
+                        break;
+                    case 5:
+                        editDVD();
+                        break;
+                    case 6:
+                        keepGoing = false;
+                        break;
+                    default:
+                        unknownCommand();
+                }
+
             }
-
+            exitMessage();
+        } catch (DVDLibraryDaoException e) {
+            view.displayErrorMessage(e.getMessage());
         }
-        exitMessage();
     }
 
     private int getMenuSelection() {
@@ -59,34 +72,34 @@ public class DVDLibraryController {
     }
 
     //a method in the Controller to orchestrate the creation of a new DVD
-    private void createDVD() {
+    private void createDVD() throws DVDLibraryDaoException {
         view.displayCreateDVDBanner();
         DVD newDVD = view.getNewDVDInfo();
         dao.addDVD(newDVD.getTitle(), newDVD);
         view.displayCreateSuccessBanner();
     }
 
-    private void listDVDs() {
+    private void listDVDs() throws DVDLibraryDaoException  {
         view.displayDisplayAllBanner();
         List<DVD> dvdList = dao.getAllDVDs();
         view.displayDVDList(dvdList);
     }
 
-    private void viewDVD() {
+    private void viewDVD() throws DVDLibraryDaoException {
         view.displayDisplayDVDBanner();
         String title = view.getDVDTitleChoice();
         DVD dvd = dao.getDVD(title); //the search is case sensitive. If i have time later, change it
         view.displayDVD(dvd);
     }
 
-    private void removeDVD() {
+    private void removeDVD() throws DVDLibraryDaoException {
         view.displayRemoveDVDBanner();
         String title = view.getDVDTitleChoice();
         DVD removedDVD = dao.removeDVD(title); //the search is case sensitive. If i have time later, change it
         view.displayRemoveResult(removedDVD);
     }
 
-    private void editDVD() {
+    private void editDVD() throws DVDLibraryDaoException {
         //banner
         view.displayEditDVDBanner();
         //get an existing dvd by title

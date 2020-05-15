@@ -14,7 +14,13 @@ import java.util.List;
  * @author kristinazakharova
  */
 public class DVDView {
-    private UserIO io = new UserIOConsoleImpl();
+    //private UserIO io = new UserIOConsoleImpl(); removing
+    private UserIO io;
+
+    //constructor
+    public DVDView(UserIO io) {
+        this.io = io;
+    }
 
     public int printMenuAndGetSelection() {
         io.print("Main Menu");
@@ -158,6 +164,11 @@ public class DVDView {
 
     public void displayUnknownCommandBanner() {
         io.print("Unknown Command!!!");
+    }
+
+    public void displayErrorMessage(String errorMsg) {
+        io.print("=== ERROR ===");
+        io.print(errorMsg);
     }
 
 }

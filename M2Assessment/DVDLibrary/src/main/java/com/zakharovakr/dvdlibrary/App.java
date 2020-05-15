@@ -6,6 +6,11 @@
 package com.zakharovakr.dvdlibrary;
 
 import com.zakharovakr.dvdlibrary.controller.DVDLibraryController;
+import com.zakharovakr.dvdlibrary.dao.DVDLibraryDao;
+import com.zakharovakr.dvdlibrary.dao.DVDLibraryDaoFileImpl;
+import com.zakharovakr.dvdlibrary.ui.DVDView;
+import com.zakharovakr.dvdlibrary.ui.UserIO;
+import com.zakharovakr.dvdlibrary.ui.UserIOConsoleImpl;
 
 /**
  *
@@ -14,7 +19,10 @@ import com.zakharovakr.dvdlibrary.controller.DVDLibraryController;
 public class App {
 
     public static void main(String[] args) {
-        DVDLibraryController controller = new DVDLibraryController();
+        UserIO myIo = new UserIOConsoleImpl();
+        DVDView myView = new DVDView(myIo);
+        DVDLibraryDao myDao = new DVDLibraryDaoFileImpl();
+        DVDLibraryController controller = new DVDLibraryController(myDao, myView);
         controller.run();
     }
 }
