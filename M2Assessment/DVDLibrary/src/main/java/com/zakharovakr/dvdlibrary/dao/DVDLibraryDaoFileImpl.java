@@ -41,7 +41,8 @@ public class DVDLibraryDaoFileImpl implements DVDLibraryDao {
     }
 
     @Override
-    public DVD editDVD(String title) {
-        throw new UnsupportedOperationException("Not supported yet.");
+    public DVD editDVD(String title, DVD editDVD) {
+        DVD editedDVD = dvds.put(title, editDVD);
+        return editedDVD;
     }
 }

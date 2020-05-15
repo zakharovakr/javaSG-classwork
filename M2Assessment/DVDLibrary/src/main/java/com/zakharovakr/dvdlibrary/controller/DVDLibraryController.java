@@ -44,7 +44,7 @@ public class DVDLibraryController {
                     removeDVD();
                     break;
                 case 5:
-                    io.print("EDIT DVD");
+                    editDVD();
                     break;
                 case 6:
                     keepGoing = false;
@@ -87,5 +87,18 @@ public class DVDLibraryController {
         String title = view.getDVDTitleChoice();
         DVD removedDVD = dao.removeDVD(title); //the search is case sensitive. If i have time later, change it
         view.displayRemoveResult(removedDVD);
+    }
+
+    private void editDVD() {
+        //banner
+        view.displayEditDVDBanner();
+        //get an existing dvd by title
+        String title = view.getDVDTitleChoice();
+        DVD currentDVD = dao.getDVD(title);
+        //update DVD info
+        DVD editedDVD = view.getEditedDVDInfo(currentDVD);
+        dao.editDVD(title, editedDVD);
+        //banner
+        view.displayEditSuccessBanner();
     }
 }

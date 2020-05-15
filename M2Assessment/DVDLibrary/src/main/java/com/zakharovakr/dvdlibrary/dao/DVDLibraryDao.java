@@ -60,8 +60,9 @@ public interface DVDLibraryDao {
      * Returns null if no such DVD exists
      *
      * @param title DVD title to edit
+     * @param dvd DVD to be replaced to the collection
      * @return the edited DVD object associated with the given DVD title,
      * null if no such DVD exists
      */
-    DVD editDVD(String title);
+    DVD editDVD(String title, DVD dvd);
 }

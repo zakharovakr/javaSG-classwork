@@ -111,16 +111,6 @@ public class DVDView {
         io.print("=== Remove DVD ===");
     }
 
-    //display the results of our remove
-    /*public void displayRemoveResult(Student studentRecord) {
-    if(studentRecord != null){
-      io.print("Student successfully removed.");
-    }else{
-      io.print("No such student.");
-    }
-    io.readString("Please hit enter to continue.");
-}*/
-
     public void displayRemoveResult(DVD dvdRecord) {
         if(dvdRecord != null){
             io.print("DVD successfully removed.");
@@ -129,4 +119,31 @@ public class DVDView {
         }
         io.readString("Please hit enter to continue.");
     }
+
+    public void displayEditDVDBanner () {
+        io.print("=== Edit DVD ===");
+    }
+
+    public void displayEditSuccessBanner() {
+        io.readString("Dvd successfully edited. Please hit enter to continue");
+    }
+
+    public DVD getEditedDVDInfo(DVD dvd) {
+        String releaseDate = io.readString("Please enter the updated release date");
+        String MPAARating = io.readString("Please enter the updated MPAA rating");
+        String directorName = io.readString("Please enter the updated director's name");
+        String studio = io.readString("Please enter the updated studio name");
+        String userNote = io.readString("Please enter some notes/your personal rating");
+
+        DVD editedDVD= new DVD(dvd.getTitle());
+
+        editedDVD.setReleaseDate(releaseDate);
+        editedDVD.setMPAARating(MPAARating);
+        editedDVD.setDirectorName(directorName);
+        editedDVD.setStudio(studio);
+        editedDVD.setUserNote(userNote);
+
+        return editedDVD;
+    }
+
 }
