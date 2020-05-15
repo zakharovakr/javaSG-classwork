@@ -9,8 +9,6 @@ import com.zakharovakr.dvdlibrary.dao.DVDLibraryDao;
 import com.zakharovakr.dvdlibrary.dao.DVDLibraryDaoFileImpl;
 import com.zakharovakr.dvdlibrary.dto.DVD;
 import com.zakharovakr.dvdlibrary.ui.DVDView;
-import com.zakharovakr.dvdlibrary.ui.UserIO;
-import com.zakharovakr.dvdlibrary.ui.UserIOConsoleImpl;
 
 import java.util.List;
 
@@ -21,7 +19,6 @@ import java.util.List;
 public class DVDLibraryController {
     private DVDView view = new DVDView();
     private DVDLibraryDao dao = new DVDLibraryDaoFileImpl();
-    private UserIO io = new UserIOConsoleImpl();
 
     public void run() {
         boolean keepGoing = true;
@@ -50,11 +47,11 @@ public class DVDLibraryController {
                     keepGoing = false;
                     break;
                 default:
-                    io.print("UNKNOWN COMMAND");
+                    unknownCommand();
             }
 
         }
-        io.print("GOOD BYE");
+        exitMessage();
     }
 
     private int getMenuSelection() {
@@ -95,10 +92,19 @@ public class DVDLibraryController {
         //get an existing dvd by title
         String title = view.getDVDTitleChoice();
         DVD currentDVD = dao.getDVD(title);
-        //update DVD info
-        DVD editedDVD = view.getEditedDVDInfo(currentDVD);
-        dao.editDVD(title, editedDVD);
-        //banner
-        view.displayEditSuccessBanner();
+        if(currentDVD != null) {
+            //update DVD info if dvd exists
+            DVD editedDVD = view.getEditedDVDInfo(currentDVD);
+            dao.editDVD(title, editedDVD);
+        }
+        view.displayEditResult(currentDVD);
+    }
+
+    private void unknownCommand() {
+        view.displayUnknownCommandBanner();
+    }
+
+    private void exitMessage() {
+        view.displayExitBanner();
     }
 }

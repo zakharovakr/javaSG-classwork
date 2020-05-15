@@ -124,8 +124,14 @@ public class DVDView {
         io.print("=== Edit DVD ===");
     }
 
-    public void displayEditSuccessBanner() {
-        io.readString("Dvd successfully edited. Please hit enter to continue");
+    //edit is not possible if the selected dvd doesn't exist in the collection
+    public void displayEditResult(DVD dvdToEdit) { //
+        if (dvdToEdit != null) {
+            io.print("Dvd successfully edited.");
+        } else {
+            io.print("No such DVD.");
+        }
+        io.readString("Please hit enter to continue.");
     }
 
     public DVD getEditedDVDInfo(DVD dvd) {
@@ -144,6 +150,14 @@ public class DVDView {
         editedDVD.setUserNote(userNote);
 
         return editedDVD;
+    }
+
+    public void displayExitBanner() {
+        io.print("Good Bye!!!");
+    }
+
+    public void displayUnknownCommandBanner() {
+        io.print("Unknown Command!!!");
     }
 
 }
