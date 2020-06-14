@@ -17,8 +17,6 @@ import java.util.List;
  * @author kristinazakharova
  */
 public class DVDLibraryController {
-    //private DVDView view = new DVDView();
-    //private DVDLibraryDao dao = new DVDLibraryDaoFileImpl(); removing
 
     DVDView view;
     DVDLibraryDao dao;
