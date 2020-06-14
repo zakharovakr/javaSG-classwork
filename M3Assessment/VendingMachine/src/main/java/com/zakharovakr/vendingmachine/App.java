@@ -26,6 +26,7 @@ public class App {
         VendingMachineAuditDao auditDao = new VendingMachineAuditDaoFileImpl();
         VendingMachineServiceLayer service = new VendingMachineServiceLayerImpl(dao, auditDao);
         VendingMachineController controller = new VendingMachineController(view, service);
+        
         controller.run();
     }
 }

@@ -27,23 +27,24 @@ public class VendingMachineController {
     private VendingMachineView view;
     private VendingMachineServiceLayer service;
 
+    //constructor - dependency injection
     public VendingMachineController(VendingMachineView view, VendingMachineServiceLayer service) {
         this.view = view;
         this.service = service;
     }
 
+    //main method
     public void run() {
         boolean keepGoing = true;
         String menuSelection = "";
 
         try {
-            //run while the customer doesn't type "exit"
             while (keepGoing) {
                 displayMenu();
                 insertBalance();
                 menuSelection = getMenuSelection();
 
-                if (menuSelection.equals("exit")) {
+                if (menuSelection.equals("exit")) {//program quits if user types "exit"
                     displayExitBanner();
                     keepGoing = false;
                 } else {
@@ -52,35 +53,40 @@ public class VendingMachineController {
                     keepGoing = false;
                 }
             }
-//        } catch (VendingMachinePersistenceException e) {
         } catch (Exception e) {
             view.displayErrorMessage(e.getMessage());
         }
     }
 
+    //displaying welcome banner and available items 
     private void displayMenu() throws VendingMachinePersistenceException {
         view.displayIntroBanner();
         List<Item> items = service.getAvailableItems();
         view.displayItem(items);
     }
 
+    //asking user for balance input and assigning that value to service layer for further manipulations
     private void insertBalance() {
         BigDecimal balance = view.getBalance();
         service.setBalance(balance);
     }
 
-    private String getMenuSelection() throws VendingMachinePersistenceException {
+    //getting an item choice from user
+    private String getMenuSelection() throws VendingMachinePersistenceException, VendingMachineNoItemInventoryException {
         List<Item> items = service.getAvailableItems();
         return view.getMenuSelection(items);
     }
 
-    private void displayExitBanner() {
-        view.displayExitBanner();
-    }
-
+    
+    //main method - vends item to user and displays change 
     private void vend(String itemId) throws VendingMachinePersistenceException, VendingMachineInsufficientFundsException, VendingMachineOutOfStockException, VendingMachineNoItemInventoryException {
         Change change = service.vend(itemId);
         view.displayChange(change);
+    }
+    
+    //displays exit banner
+    private void displayExitBanner() {
+        view.displayExitBanner();
     }
 
 }

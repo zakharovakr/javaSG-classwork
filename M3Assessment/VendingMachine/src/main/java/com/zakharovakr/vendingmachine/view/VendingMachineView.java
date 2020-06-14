@@ -22,32 +22,17 @@ public class VendingMachineView {
     public VendingMachineView(UserIO io) {
         this.io = io;
     }
-
-    public void displayErrorMessage(String message) {
-        io.print("=== ERROR ===\n" + message);
-    }
-
-    public void displayIntroBanner() {
-        io.print("\n==== Hi there! Welcome to my Vending Machine! === \n");
-    }
-
-    public void displayItem(List<Item> itemList) {
-        for (Item currentItem : itemList) {
-            io.print(currentItem.getItemId() + ": "
-                    + currentItem.getItemName() + " - $"
-                    + currentItem.getItemPrice()+ " - Item Count: "
-                    + currentItem.getItemCount());
-        }
-    }
-
+    
+    /*
+    methods getting user input
+    */
+    
     public BigDecimal getBalance() {
-        //user is only able to type in a Big Decimal format - refactor that if have time
         return io.readBigDecimal("\nHow much money would you like to insert? (e.g. 2.00)");
     }
 
     public String getMenuSelection(List<Item> items) {
-        String userInput = io.readString("Please select an item:\n"
-                + "If you'd like to leave please type 'exit'.");
+        String userInput = io.readString("Please select an item from the menu (If you'd like to leave type 'exit'): ");
 
         if (userInput.trim().toLowerCase().equals("exit")) {
             return "exit";
@@ -55,17 +40,48 @@ public class VendingMachineView {
             return userInput;
         }
     }
-
-    public void displayExitBanner() {
-        io.print("Thanks for shopping with us!");
+    
+    /*
+    display methods
+    */
+    
+        public void displayItem(List<Item> itemList) {
+        for (Item currentItem : itemList) {
+            io.print(currentItem.getItemId() + ": "
+                    + currentItem.getItemName() + " - $"
+                    + currentItem.getItemPrice()+ " - Item Count: "
+                    + currentItem.getItemCount());
+        }
     }
-
+    
     public void displayChange(Change change) {
-        io.print("Here's your change:\n"
+        io.print("=== Here's your change: "
+                + "($" + change.getTotal() + ") ===\n"
+
                 + "Quarters: " + change.getQuarters() + "\n"
                 + "Dimes: " + change.getDimes() + "\n"
                 + "Nickels: " + change.getNickels() + "\n"
                 + "Pennies: " + change.getPennies());
+    }
+
+    /*
+    banners/errors
+    */
+    
+    public void displayIntroBanner() {
+        io.print("\n=== Hi there! Welcome to my Vending Machine! === \n");
+    }
+    
+    public void displayUnknownCommandBanner() {
+        io.print("Unknown Command!!!");
+    }
+
+    public void displayExitBanner() {
+        io.print("\n=== Thanks for shopping with us! ===");
+    }
+    
+    public void displayErrorMessage(String message) {
+        io.print("=== ERROR ===\n" + message);
     }
 
 }

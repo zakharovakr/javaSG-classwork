@@ -5,18 +5,35 @@
  */
 package com.zakharovakr.vendingmachine.dto;
 
+import java.math.BigDecimal;
+
 /**
  *
  * @author kristinazakharova
  */
 public class Change {
 
+    BigDecimal total;
+
     private int pennies,
             nickels,
             dimes,
             quarters;
 
+    //constructor
+    public Change(BigDecimal total) {
+        this.total = total;
+    }
+
     //getters and setters
+    public BigDecimal getTotal() {
+        return total;
+    }
+
+    public void setTotal(BigDecimal total) {
+        this.total = total;
+    }
+
     public int getPennies() {
         return pennies;
     }
