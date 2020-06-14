@@ -17,7 +17,7 @@ public class VendingMachineDaoFileImpl implements VendingMachineDao {
     }
 
     @Override
-    public List<Item> readAll() throws VendingMachinePersistenceException {
+    public List<Item> readAllItems() throws VendingMachinePersistenceException {
         return new ArrayList<Item>(items.values());
     }
 
@@ -85,7 +85,7 @@ public class VendingMachineDaoFileImpl implements VendingMachineDao {
             throw new VendingMachinePersistenceException("Could not save inventory data", e);
         }
 
-        List<Item> itemList = this.readAll();
+        List<Item> itemList = this.readAllItems();
         for (Item currentItem : itemList) {
             out.println(currentItem.getItemId() + DELIMITER
                     + currentItem.getItemName() + DELIMITER

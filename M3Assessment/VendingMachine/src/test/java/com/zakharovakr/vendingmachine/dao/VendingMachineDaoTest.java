@@ -31,11 +31,11 @@ public class VendingMachineDaoTest {
     }
 
     /**
-     * Test of readAll method, of class VendingMachineDao.
+     * Test of readAllItems method, of class VendingMachineDao.
      */
     @Test
     public void testReadAll() throws Exception {
-        assertEquals(2, dao.readAll().size());
+        assertEquals(2, dao.readAllItems().size());
     }
 
     /**

@@ -45,11 +45,11 @@ public class VendingMachineController {
                 menuSelection = getMenuSelection();
 
                 if (menuSelection.equals("exit")) {//program quits if user types "exit"
-                    displayExitBanner();
+                    displayExitMessage();
                     keepGoing = false;
                 } else {
                     vend(menuSelection);
-                    displayExitBanner();
+                    displayExitMessage();
                     keepGoing = false;
                 }
             }
@@ -62,7 +62,7 @@ public class VendingMachineController {
     private void displayMenu() throws VendingMachinePersistenceException {
         view.displayIntroBanner();
         List<Item> items = service.getAvailableItems();
-        view.displayItem(items);
+        view.displayItems(items);
     }
 
     //asking user for balance input and assigning that value to service layer for further manipulations
@@ -85,7 +85,7 @@ public class VendingMachineController {
     }
     
     //displays exit banner
-    private void displayExitBanner() {
+    private void displayExitMessage() {
         view.displayExitBanner();
     }
 

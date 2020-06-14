@@ -15,7 +15,7 @@ import java.util.List;
  */
 public interface VendingMachineDao {
 
-    public List<Item> readAll() throws VendingMachinePersistenceException;
+    public List<Item> readAllItems() throws VendingMachinePersistenceException;
 
     public Item readById(String itemId) throws VendingMachinePersistenceException;
 

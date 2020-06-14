@@ -36,7 +36,7 @@ public class VendingMachineServiceLayerImpl implements VendingMachineServiceLaye
 
     @Override
     public List<Item> getAvailableItems() throws VendingMachinePersistenceException {
-        return dao.readAll();
+        return dao.readAllItems();
     }
 
     @Override

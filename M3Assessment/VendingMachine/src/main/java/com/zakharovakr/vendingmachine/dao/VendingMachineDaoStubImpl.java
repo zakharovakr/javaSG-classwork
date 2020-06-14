@@ -32,7 +32,7 @@ public class VendingMachineDaoStubImpl implements VendingMachineDao {
     }
 
     @Override
-    public List<Item> readAll() throws VendingMachinePersistenceException {
+    public List<Item> readAllItems() throws VendingMachinePersistenceException {
         return new ArrayList<>(itemList.values());
     }
 

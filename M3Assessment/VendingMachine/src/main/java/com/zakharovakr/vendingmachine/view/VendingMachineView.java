@@ -45,7 +45,7 @@ public class VendingMachineView {
     display methods
     */
     
-        public void displayItem(List<Item> itemList) {
+        public void displayItems(List<Item> itemList) {
         for (Item currentItem : itemList) {
             io.print(currentItem.getItemId() + ": "
                     + currentItem.getItemName() + " - $"

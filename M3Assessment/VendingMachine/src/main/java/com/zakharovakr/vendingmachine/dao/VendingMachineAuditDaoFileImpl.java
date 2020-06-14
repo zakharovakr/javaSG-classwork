@@ -19,6 +19,7 @@ public class VendingMachineAuditDaoFileImpl implements VendingMachineAuditDao {
     public static final String AUDIT_FILE = "audit.txt";
 
     @Override
+    //main method - writes entries to file with a time stamp using Java DateTime API
     public void writeAuditEntry(String entry) throws VendingMachinePersistenceException {
         PrintWriter out;
 
@@ -28,6 +29,7 @@ public class VendingMachineAuditDaoFileImpl implements VendingMachineAuditDao {
             throw new VendingMachinePersistenceException("Could not persist audit information.", e);
         }
 
+        //DateTime API - gets current time of the action for audit
         LocalDateTime timestamp = LocalDateTime.now();
         out.println(timestamp.toString() + " : " + entry);
         out.flush();
