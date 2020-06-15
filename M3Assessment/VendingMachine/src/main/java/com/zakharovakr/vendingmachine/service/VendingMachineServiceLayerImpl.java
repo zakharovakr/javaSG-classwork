@@ -91,7 +91,7 @@ public class VendingMachineServiceLayerImpl implements VendingMachineServiceLaye
                 //adding audit for successful purchase
                 auditDao.writeAuditEntry("Item " + itemId + "(" + item.getItemName() + ") was successfully purchased.");
             } else {
-                auditDao.writeAuditEntry("Insufficient funds to purchase " + itemId + "(" + item.getItemName() +")");
+                auditDao.writeAuditEntry("Insufficient funds to purchase item " + itemId + "(" + item.getItemName() +").");
                 throw new VendingMachineInsufficientFundsException("Looks like you haven't inserted enough money to buy "
                                                                     + item.getItemName() + ". "
                                                                     + "Try again!\n"

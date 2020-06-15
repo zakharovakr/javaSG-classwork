@@ -13,7 +13,7 @@ import java.math.BigDecimal;
  */
 public class Change {
 
-    BigDecimal total;
+    private BigDecimal total;
 
     private int pennies,
             nickels,

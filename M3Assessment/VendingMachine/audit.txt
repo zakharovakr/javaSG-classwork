@@ -36,3 +36,7 @@
 2020-06-14T16:49:58.435624 : Insufficient funds to purchase 5(Twix)
 2020-06-14T17:11:51.031741 : Item 9(Gum) was successfully purchased.
 2020-06-14T17:12:27.624866 : Item 2(Diet Coke) was successfully purchased.
+2020-06-14T20:15:22.521657 : Insufficient funds to purchase 8(Nut Mix)
+2020-06-14T20:19:37.892777 : Insufficient funds to purchase item4(Fanta).
+2020-06-14T20:20:18.814381 : Insufficient funds to purchase item 5(Twix).
+2020-06-14T20:20:35.622394 : Item 7(Oreo) was successfully purchased.
