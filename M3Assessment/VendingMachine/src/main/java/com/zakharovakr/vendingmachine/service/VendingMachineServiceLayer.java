@@ -28,7 +28,7 @@ public interface VendingMachineServiceLayer {
 
     public BigDecimal getBalance();
 
-    public Change vend(String itemId) throws VendingMachinePersistenceException, VendingMachineInsufficientFundsException, VendingMachineOutOfStockException, VendingMachineNoItemInventoryException;
+    public Change vend(String itemId) throws VendingMachinePersistenceException, VendingMachineInsufficientFundsException, VendingMachineOutOfStockException;
 
     public Change calculateChange(BigDecimal changeToCalculate);
 }

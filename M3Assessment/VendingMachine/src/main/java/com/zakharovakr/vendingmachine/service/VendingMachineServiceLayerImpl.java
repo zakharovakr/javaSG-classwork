@@ -64,20 +64,10 @@ public class VendingMachineServiceLayerImpl implements VendingMachineServiceLaye
 
     @Override
     //main method, takes in an item id as a String, returns Change (as a result of purchase)
-    public Change vend(String itemId) throws VendingMachinePersistenceException, VendingMachineInsufficientFundsException, VendingMachineOutOfStockException, VendingMachineNoItemInventoryException {
+    public Change vend(String itemId) throws VendingMachinePersistenceException, VendingMachineInsufficientFundsException, VendingMachineOutOfStockException {
         Item item = dao.readById(itemId);
         BigDecimal price = item.getItemPrice();
         Change change;
-
-        //still working on this exception 
-        
-        /*if an item with this id doesn't exist, throw an error
-        if (item.getItemId().equals(null)) {
-            auditDao.writeAuditEntry("Attempt to buy non-existing item.");
-            throw new VendingMachineNoItemInventoryException("No such item in the Machine, sorry. "
-                                                             + "Here is your money back: $"
-                                                             + balance);
-        }*/
 
         //only vend if there more than 0 items in stock and user has inserted enough money
         if (item.getItemCount() != 0) {

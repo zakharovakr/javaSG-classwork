@@ -10,7 +10,6 @@ import com.zakharovakr.vendingmachine.dao.VendingMachinePersistenceException;
 import com.zakharovakr.vendingmachine.dto.Change;
 import com.zakharovakr.vendingmachine.dto.Item;
 import com.zakharovakr.vendingmachine.service.VendingMachineInsufficientFundsException;
-import com.zakharovakr.vendingmachine.service.VendingMachineNoItemInventoryException;
 import com.zakharovakr.vendingmachine.service.VendingMachineOutOfStockException;
 import com.zakharovakr.vendingmachine.service.VendingMachineServiceLayer;
 import com.zakharovakr.vendingmachine.view.VendingMachineView;
@@ -42,8 +41,10 @@ public class VendingMachineController {
             while (keepGoing) {
                 displayMenu();
                 insertBalance();
+                //ask for menu selection until user enters valid info
+       
                 menuSelection = getMenuSelection();
-
+                
                 if (menuSelection.equals("exit")) {//program quits if user types "exit"
                     displayExitMessage();
                     keepGoing = false;
@@ -53,6 +54,7 @@ public class VendingMachineController {
                     keepGoing = false;
                 }
             }
+            
         } catch (Exception e) {
             displayErrorMessage(e.getMessage());
         }
@@ -72,14 +74,14 @@ public class VendingMachineController {
     }
 
     //getting an item choice from user
-    private String getMenuSelection() throws VendingMachinePersistenceException, VendingMachineNoItemInventoryException {
+    private String getMenuSelection() throws VendingMachinePersistenceException {
         List<Item> items = service.getAvailableItems();
         return view.getMenuSelection(items);
     }
 
     
     //main method - vends item to user and displays change 
-    private void vend(String itemId) throws VendingMachinePersistenceException, VendingMachineInsufficientFundsException, VendingMachineOutOfStockException, VendingMachineNoItemInventoryException {
+    private void vend(String itemId) throws VendingMachinePersistenceException, VendingMachineInsufficientFundsException, VendingMachineOutOfStockException {
         Change change = service.vend(itemId);
         view.displayChange(change);
     }
