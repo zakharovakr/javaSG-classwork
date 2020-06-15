@@ -56,7 +56,7 @@ public class VendingMachineController {
             }
             
         } catch (Exception e) {
-            displayErrorMessage(e.getMessage());
+            view.displayErrorMessage(e.getMessage());
         }
     }
 
@@ -91,8 +91,8 @@ public class VendingMachineController {
         view.displayExitBanner();
     }
     
-    private void displayErrorMessage(String message) {
-        view.displayErrorMessage("Something went wrong");
-    }
+    //private void displayErrorMessage(String message) {
+    //  view.displayErrorMessage("Something went wrong");
+    //}
 
 }

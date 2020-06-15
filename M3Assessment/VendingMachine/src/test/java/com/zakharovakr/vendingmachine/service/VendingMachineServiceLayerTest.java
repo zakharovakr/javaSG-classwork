@@ -85,14 +85,14 @@ public class VendingMachineServiceLayerTest {
      * Test of calculateChange method, of class VendingMachineServiceLayer.
      */
     @Test
-    public void testCalculateChange() throws VendingMachinePersistenceException, VendingMachineInsufficientFundsException, VendingMachineOutOfStockException, VendingMachineNoItemInventoryException {
+    public void testCalculateChange() throws VendingMachinePersistenceException, VendingMachineInsufficientFundsException, VendingMachineOutOfStockException {
         BigDecimal balance = new BigDecimal("2.00");
         Change change;
 
         service.setBalance(balance);
         change = service.vend("2");
 
-        //Once item's been vended the count of the item should be decrement
+        //Once item's been vended the count of the item should be decremented
         List<Item> itemList = service.getAvailableItems();
         assertEquals(4,itemList.get(1).getItemCount());
 

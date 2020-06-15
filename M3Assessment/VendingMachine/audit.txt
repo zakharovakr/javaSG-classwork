@@ -47,3 +47,9 @@
 2020-06-15T09:58:51.734702 : Item 4(Fanta) was successfully purchased.
 2020-06-15T10:27:57.763985 : Item 4(Fanta) was successfully purchased.
 2020-06-15T10:32:04.684972 : Item 8(Nut Mix) was successfully purchased.
+2020-06-15T12:42:06.074530 : Option 1(Coke) is not in stock!
+2020-06-15T12:43:17.163286 : Option 1(Coke) is not in stock!
+2020-06-15T12:44:08.495380 : Insufficient funds to purchase item 2(Diet Coke).
+2020-06-15T12:44:30.030643 : Item 4(Fanta) was successfully purchased.
+2020-06-15T12:45:56.682552 : Insufficient funds to purchase item 9(Gum).
+2020-06-15T12:49:59.738484 : Item 7(Oreo) was successfully purchased.
