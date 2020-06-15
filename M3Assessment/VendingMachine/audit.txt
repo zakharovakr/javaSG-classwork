@@ -40,3 +40,8 @@
 2020-06-14T20:19:37.892777 : Insufficient funds to purchase item4(Fanta).
 2020-06-14T20:20:18.814381 : Insufficient funds to purchase item 5(Twix).
 2020-06-14T20:20:35.622394 : Item 7(Oreo) was successfully purchased.
+2020-06-15T09:43:07.867034 : Insufficient funds to purchase item 2(Diet Coke).
+2020-06-15T09:43:28.896090 : Item 2(Diet Coke) was successfully purchased.
+2020-06-15T09:44:05.593034 : Option 1(Coke) is not in stock!
+2020-06-15T09:57:27.747255 : Item 10(Lay's Chips) was successfully purchased.
+2020-06-15T09:58:51.734702 : Item 4(Fanta) was successfully purchased.

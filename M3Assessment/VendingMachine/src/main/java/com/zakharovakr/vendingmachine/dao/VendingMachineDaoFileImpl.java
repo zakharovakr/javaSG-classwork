@@ -86,13 +86,30 @@ public class VendingMachineDaoFileImpl implements VendingMachineDao {
         }
 
         List<Item> itemList = this.readAllItems();
-        for (Item currentItem : itemList) {
+        //implementing lambdas and streams 
+        
+        //Example from the lesson:
+        //people.stream()
+        //      .forEach((p) -> {
+        //          System.out.println(p.getName());
+        //          System.out.println(p.getAge());
+        //      });
+        
+        itemList.stream()
+                .forEach((item) -> {
+                    out.println(item.getItemId() + DELIMITER
+                    + item.getItemName() + DELIMITER
+                    + item.getItemPrice() + DELIMITER
+                    + item.getItemCount());
+                });
+        
+        /*for (Item currentItem : itemList) {
             out.println(currentItem.getItemId() + DELIMITER
                     + currentItem.getItemName() + DELIMITER
                     + currentItem.getItemPrice() + DELIMITER
-                    + currentItem.getItemCount());
+                    + currentItem.getItemCount());*/
             out.flush();
-        }
+        //}
         out.close();
     }
 }
