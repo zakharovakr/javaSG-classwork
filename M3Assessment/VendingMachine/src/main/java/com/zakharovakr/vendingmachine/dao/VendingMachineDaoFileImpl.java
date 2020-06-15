@@ -103,6 +103,7 @@ public class VendingMachineDaoFileImpl implements VendingMachineDao {
                     + item.getItemCount());
                 });
         
+        //old code
         /*for (Item currentItem : itemList) {
             out.println(currentItem.getItemId() + DELIMITER
                     + currentItem.getItemName() + DELIMITER
