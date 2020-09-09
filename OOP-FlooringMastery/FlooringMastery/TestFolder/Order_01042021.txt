@@ -1,0 +1,2 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+3,Hank,TX,4.45,Wood,986,5.15,4.75,5077.90,4683.50,434.38,10195.78

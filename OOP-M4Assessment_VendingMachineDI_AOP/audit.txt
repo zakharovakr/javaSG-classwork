@@ -1,0 +1,69 @@
+2020-06-13T23:56:56.326773 : Option 1 is not in stock!
+2020-06-14T00:04:53.570023 : Insufficient funds to purchase item 8
+2020-06-14T00:32:23.077528 : Insufficient funds to purchase item 2
+2020-06-14T00:36:12.396514 : Insufficient funds to purchase Diet Coke
+2020-06-14T00:37:23.782702 : Insufficient funds to purchase Diet Coke
+2020-06-14T00:39:07.687593 : Insufficient funds to purchase 2(Diet Coke)
+2020-06-14T00:42:12.092171 : Option 1 (Coke) is not in stock!
+2020-06-14T00:42:34.947849 : Option 1 (Coke) is not in stock!
+2020-06-14T13:37:16.979304 : Item 9(Gum) was successfully purchased.
+2020-06-14T13:41:33.725929 : Item 7(Oreo) was successfully purchased.
+2020-06-14T13:47:32.955549 : Item 9(Gum) was successfully purchased.
+2020-06-14T14:08:20.356698 : Item 6(Snickers) was successfully purchased.
+2020-06-14T14:10:24.717005 : Item 6(Snickers) was successfully purchased.
+2020-06-14T14:11:42.745885 : Item 4(Fanta) was successfully purchased.
+2020-06-14T14:14:32.901472 : Item 7(Oreo) was successfully purchased.
+2020-06-14T14:16:39.184669 : Item 5(Twix) was successfully purchased.
+2020-06-14T14:26:26.755873 : Item 8(Nut Mix) was successfully purchased.
+2020-06-14T14:31:16.487964 : Insufficient funds to purchase 6 (Snickers)
+2020-06-14T14:35:06.157188 : Option 1(Coke) is not in stock!
+2020-06-14T14:38:05.767518 : Insufficient funds to purchase 6 (Snickers)
+2020-06-14T14:42:32.392835 : Option 1(Coke) is not in stock!
+2020-06-14T14:51:18.397879 : Item 8(Nut Mix) was successfully purchased.
+2020-06-14T14:51:39.627082 : Insufficient funds to purchase 5(Twix)
+2020-06-14T14:52:53.593892 : Item 9(Gum) was successfully purchased.
+2020-06-14T15:30:16.070714 : Insufficient funds to purchase 8(Nut Mix)
+2020-06-14T15:30:50.257053 : Item 10(Lay's Chips) was successfully purchased.
+2020-06-14T15:59:24.086495 : Item 4(Fanta) was successfully purchased.
+2020-06-14T16:04:46.057752 : Item 6(Snickers) was successfully purchased.
+2020-06-14T16:23:18.253911 : Item 5(Twix) was successfully purchased.
+2020-06-14T16:23:55.626801 : Item 8(Nut Mix) was successfully purchased.
+2020-06-14T16:32:20.922474 : Item 10(Lay's Chips) was successfully purchased.
+2020-06-14T16:32:50.831230 : Item 3(Sprite) was successfully purchased.
+2020-06-14T16:45:44.852173 : Item 2(Diet Coke) was successfully purchased.
+2020-06-14T16:46:59.540474 : Insufficient funds to purchase 6(Snickers)
+2020-06-14T16:47:28.753504 : Insufficient funds to purchase 8(Nut Mix)
+2020-06-14T16:49:58.435624 : Insufficient funds to purchase 5(Twix)
+2020-06-14T17:11:51.031741 : Item 9(Gum) was successfully purchased.
+2020-06-14T17:12:27.624866 : Item 2(Diet Coke) was successfully purchased.
+2020-06-14T20:15:22.521657 : Insufficient funds to purchase 8(Nut Mix)
+2020-06-14T20:19:37.892777 : Insufficient funds to purchase item4(Fanta).
+2020-06-14T20:20:18.814381 : Insufficient funds to purchase item 5(Twix).
+2020-06-14T20:20:35.622394 : Item 7(Oreo) was successfully purchased.
+2020-06-15T09:43:07.867034 : Insufficient funds to purchase item 2(Diet Coke).
+2020-06-15T09:43:28.896090 : Item 2(Diet Coke) was successfully purchased.
+2020-06-15T09:44:05.593034 : Option 1(Coke) is not in stock!
+2020-06-15T09:57:27.747255 : Item 10(Lay's Chips) was successfully purchased.
+2020-06-15T09:58:51.734702 : Item 4(Fanta) was successfully purchased.
+2020-06-15T10:27:57.763985 : Item 4(Fanta) was successfully purchased.
+2020-06-15T10:32:04.684972 : Item 8(Nut Mix) was successfully purchased.
+2020-06-15T12:42:06.074530 : Option 1(Coke) is not in stock!
+2020-06-15T12:43:17.163286 : Option 1(Coke) is not in stock!
+2020-06-15T12:44:08.495380 : Insufficient funds to purchase item 2(Diet Coke).
+2020-06-15T12:44:30.030643 : Item 4(Fanta) was successfully purchased.
+2020-06-15T12:45:56.682552 : Insufficient funds to purchase item 9(Gum).
+2020-06-15T12:49:59.738484 : Item 7(Oreo) was successfully purchased.
+2020-06-15T13:04:37.953428 : Item 5(Twix) was successfully purchased.
+2020-06-15T13:06:31.013871 : Insufficient funds to purchase item 3(Sprite).
+2020-06-15T13:07:21.689763 : Option 1(Coke) is not in stock!
+2020-06-22T11:55:17.555009 : vend: 7
+2020-06-22T12:56:46.617345 : vend: 8
+2020-06-22T14:03:03.639392 : Exception thrown: Looks like you haven't inserted enough money to buy Snickers. Try again!
+Here is your money back: $1.00
+2020-06-22T14:05:32.741038 : Exception thrown: Oops, looks like we are out of this item (Coke). Here is your money back: $1.00
+2020-06-22T14:11:38.651984 : vend: Item was successfully purchased.10
+2020-06-22T14:12:52.026780 : vend: Item was successfully purchased - id: 7
+2020-06-26T17:12:00.436056 : Exception thrown: Oops, looks like we are out of this item (Coke). Here is your money back: $1.00
+2020-06-26T17:12:58.899540 : Exception thrown: Oops, looks like we are out of this item (Coke). Here is your money back: $1.00
+2020-06-26T17:16:32.958042 : Exception thrown: Looks like you haven't inserted enough money to buy Nut Mix. Try again!
+Here is your money back: $1.00

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1751px" preserveAspectRatio="none" style="width:1331px;height:1751px;" version="1.1" viewBox="0 0 1331 1751" width="1331px" zoomAndPan="magnify"><defs><filter height="300%" id="fpznrzwdbzd5n" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[86cbce8df1eb9d604fbbb2fa357940f8]
+cluster view--><polygon fill="#FFFFFF" filter="url(#fpznrzwdbzd5n)" points="354,6,396,6,403,28.2969,899,28.2969,899,512,354,512,354,6" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="354" x2="403" y1="28.2969" y2="28.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="36" x="358" y="20.9951">view</text><!--MD5=[7579d5565d2521d5936cec86ed3dadee]
+cluster service--><polygon fill="#FFFFFF" filter="url(#fpznrzwdbzd5n)" points="16,561,79,561,86,583.2969,979,583.2969,979,960,16,960,16,561" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="16" x2="86" y1="583.2969" y2="583.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="57" x="20" y="575.9951">service</text><!--MD5=[10ea673caf457862023e152271927b45]
+cluster controller--><polygon fill="#FFFFFF" filter="url(#fpznrzwdbzd5n)" points="1003,797,1089,797,1096,819.2969,1267,819.2969,1267,1024,1003,1024,1003,797" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="1003" x2="1096" y1="819.2969" y2="819.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="80" x="1007" y="811.9951">controller</text><!--MD5=[5622bc4ba3bf2be5d17935065b98c5f9]
+cluster dao--><polygon fill="#FFFFFF" filter="url(#fpznrzwdbzd5n)" points="396,1073,432,1073,439,1095.2969,1309,1095.2969,1309,1399,396,1399,396,1073" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="396" x2="439" y1="1095.2969" y2="1095.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="30" x="400" y="1087.9951">dao</text><!--MD5=[e6eced616a98d47334dd1aaaa829ffd5]
+cluster dto--><polygon fill="#FFFFFF" filter="url(#fpznrzwdbzd5n)" points="611,1448,645,1448,652,1470.2969,1285,1470.2969,1285,1739,611,1739,611,1448" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="611" x2="652" y1="1470.2969" y2="1470.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="28" x="615" y="1462.9951">dto</text><!--MD5=[f0a365e351bd2b83c1ed7561222c91a8]
+class VendingMachineView--><rect fill="#FEFECE" filter="url(#fpznrzwdbzd5n)" height="176.0469" id="VendingMachineView" style="stroke: #A80036; stroke-width: 1.5;" width="286" x="370" y="320"/><ellipse cx="445.25" cy="336" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M447.5938,331.6719 C446.6563,331.2344 446.0625,331.0938 445.1875,331.0938 C442.5625,331.0938 440.5625,333.1719 440.5625,335.8906 L440.5625,337.0156 C440.5625,339.5938 442.6719,341.4844 445.5625,341.4844 C446.7813,341.4844 447.9375,341.1875 448.6875,340.6406 C449.2656,340.2344 449.5938,339.7813 449.5938,339.3906 C449.5938,338.9375 449.2031,338.5469 448.7344,338.5469 C448.5156,338.5469 448.3125,338.625 448.125,338.8125 C447.6719,339.2969 447.6719,339.2969 447.4844,339.3906 C447.0625,339.6563 446.375,339.7813 445.6094,339.7813 C443.5625,339.7813 442.2656,338.6875 442.2656,336.9844 L442.2656,335.8906 C442.2656,334.1094 443.5156,332.7969 445.25,332.7969 C445.8281,332.7969 446.4375,332.9531 446.9063,333.2031 C447.3906,333.4844 447.5625,333.7031 447.6563,334.1094 C447.7188,334.5156 447.75,334.6406 447.8906,334.7656 C448.0313,334.9063 448.2656,335.0156 448.4844,335.0156 C448.75,335.0156 449.0156,334.875 449.1875,334.6563 C449.2969,334.5 449.3281,334.3125 449.3281,333.8906 L449.3281,332.4688 C449.3281,332.0313 449.3125,331.9063 449.2188,331.75 C449.0625,331.4844 448.7813,331.3438 448.4844,331.3438 C448.1875,331.3438 447.9844,331.4375 447.7656,331.75 L447.5938,331.6719 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="127" x="465.75" y="340.1543">VendingMachineView</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="371" x2="655" y1="352" y2="352"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="378" y="360"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="55" x="390" y="366.2104">io: UserIO</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="371" x2="655" y1="372.8047" y2="372.8047"/><ellipse cx="381" cy="383.8047" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="152" x="390" y="387.0151">getMenuSelection(): String</text><ellipse cx="381" cy="396.6094" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="145" x="390" y="399.8198">getBalance(): BigDecimal</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="0" x="394" y="412.6245"/><ellipse cx="381" cy="422.2188" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="259" x="390" y="425.4292">displayMenuItems(): void {List&lt;Item&gt; items}</text><ellipse cx="381" cy="435.0234" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="231" x="390" y="438.2339">displayChange(): void {Change change}</text><ellipse cx="381" cy="447.8281" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="145" x="390" y="451.0386">displayIntroBanner(): void</text><ellipse cx="381" cy="460.6328" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="145" x="390" y="463.8433">displayExit Banner(): void</text><ellipse cx="381" cy="473.4375" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="260" x="390" y="476.6479">displayErrorMessage(): void {String errorMsg}</text><ellipse cx="381" cy="486.2422" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="229" x="390" y="489.4526">displayUnknownCommandBanner(): void</text><!--MD5=[de5623efa9834f9f49bdd61b9485560b]
+class UserIO--><rect fill="#FEFECE" filter="url(#fpznrzwdbzd5n)" height="201.6563" id="UserIO" style="stroke: #A80036; stroke-width: 1.5;" width="499" x="377.5" y="41"/><ellipse cx="602.75" cy="57" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M603.7031,53.7813 L605.4219,53.7813 C605.8125,53.7813 606,53.75 606.125,53.6719 C606.3906,53.5156 606.5313,53.2344 606.5313,52.9375 C606.5313,52.6719 606.4219,52.4063 606.1875,52.2344 C606.0156,52.125 605.875,52.0938 605.4219,52.0938 L600.2813,52.0938 C599.8438,52.0938 599.7188,52.1094 599.5625,52.2031 C599.3125,52.3594 599.1563,52.6563 599.1563,52.9375 C599.1563,53.2188 599.2969,53.4688 599.5156,53.6406 C599.6719,53.75 599.8594,53.7813 600.2813,53.7813 L602,53.7813 L602,60.2969 L600.2813,60.2969 C599.8438,60.2969 599.7188,60.3125 599.5625,60.4219 C599.3125,60.5781 599.1563,60.8594 599.1563,61.1563 C599.1563,61.4063 599.2969,61.6719 599.5156,61.8281 C599.6719,61.9531 599.875,62 600.2813,62 L605.4219,62 C606.1719,62 606.5313,61.7188 606.5313,61.1563 C606.5313,60.875 606.4219,60.625 606.1875,60.4531 C606.0156,60.3281 605.875,60.2969 605.4219,60.2969 L603.7031,60.2969 L603.7031,53.7813 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="40" x="623.25" y="61.1543">UserIO</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="378.5" x2="875.5" y1="73" y2="73"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="378.5" x2="875.5" y1="81" y2="81"/><ellipse cx="388.5" cy="92" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="146" x="397.5" y="95.2104">print(): void {msg: String}</text><ellipse cx="388.5" cy="104.8047" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="219" x="397.5" y="108.0151">readDouble(): double {prompt: String}</text><ellipse cx="388.5" cy="117.6094" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="371" x="397.5" y="120.8198">readDouble(): double {prompt: String, min: double, max: double}</text><ellipse cx="388.5" cy="130.4141" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="191" x="397.5" y="133.6245">readFloat(): float {prompt: String}</text><ellipse cx="388.5" cy="143.2188" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="315" x="397.5" y="146.4292">readFloat(): float {prompt: String, min: float, max: float}</text><ellipse cx="388.5" cy="156.0234" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="167" x="397.5" y="159.2339">readInt(): int {prompt: String}</text><ellipse cx="388.5" cy="168.8281" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="269" x="397.5" y="172.0386">readInt(): int {prompt: String, min: int, max: int}</text><ellipse cx="388.5" cy="181.6328" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="190" x="397.5" y="184.8433">readLong(): long {prompt: String}</text><ellipse cx="388.5" cy="194.4375" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="312" x="397.5" y="197.6479">readLong(): long {prompt: String, min: long, max: long}</text><ellipse cx="388.5" cy="207.2422" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="269" x="397.5" y="210.4526">readBigDecimal(): BigDecimal {prompt: String}</text><ellipse cx="388.5" cy="220.0469" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="473" x="397.5" y="223.2573">readBigDecimal(): BigDecimal {prompt: String, min: BigDecimal, max: BigDecimal}</text><ellipse cx="388.5" cy="232.8516" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="205" x="397.5" y="236.062">readString(): String {prompt: String}</text><!--MD5=[c4d975867232a14f16e22d09696ccaad]
+class UserIOConsoleImpl--><rect fill="#FEFECE" filter="url(#fpznrzwdbzd5n)" height="48" id="UserIOConsoleImpl" style="stroke: #A80036; stroke-width: 1.5;" width="192" x="691" y="384"/><ellipse cx="706" cy="400" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M708.3438,395.6719 C707.4063,395.2344 706.8125,395.0938 705.9375,395.0938 C703.3125,395.0938 701.3125,397.1719 701.3125,399.8906 L701.3125,401.0156 C701.3125,403.5938 703.4219,405.4844 706.3125,405.4844 C707.5313,405.4844 708.6875,405.1875 709.4375,404.6406 C710.0156,404.2344 710.3438,403.7813 710.3438,403.3906 C710.3438,402.9375 709.9531,402.5469 709.4844,402.5469 C709.2656,402.5469 709.0625,402.625 708.875,402.8125 C708.4219,403.2969 708.4219,403.2969 708.2344,403.3906 C707.8125,403.6563 707.125,403.7813 706.3594,403.7813 C704.3125,403.7813 703.0156,402.6875 703.0156,400.9844 L703.0156,399.8906 C703.0156,398.1094 704.2656,396.7969 706,396.7969 C706.5781,396.7969 707.1875,396.9531 707.6563,397.2031 C708.1406,397.4844 708.3125,397.7031 708.4063,398.1094 C708.4688,398.5156 708.5,398.6406 708.6406,398.7656 C708.7813,398.9063 709.0156,399.0156 709.2344,399.0156 C709.5,399.0156 709.7656,398.875 709.9375,398.6563 C710.0469,398.5 710.0781,398.3125 710.0781,397.8906 L710.0781,396.4688 C710.0781,396.0313 710.0625,395.9063 709.9688,395.75 C709.8125,395.4844 709.5313,395.3438 709.2344,395.3438 C708.9375,395.3438 708.7344,395.4375 708.5156,395.75 L708.3438,395.6719 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="116" x="720" y="404.1543">UserIOConsoleImpl</text><rect fill="#FFFFFF" height="15.9688" style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" width="42" x="844" y="381"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="40" x="845" y="393.1387">UserIO</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="692" x2="882" y1="416" y2="416"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="692" x2="882" y1="424" y2="424"/><!--MD5=[93d066529ba2fab614049d468c326abc]
+class VendingMachineServiceLayer--><rect fill="#FEFECE" filter="url(#fpznrzwdbzd5n)" height="137.6328" id="VendingMachineServiceLayer" style="stroke: #A80036; stroke-width: 1.5;" width="313" x="356.5" y="596"/><ellipse cx="420.25" cy="612" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M421.2031,608.7813 L422.9219,608.7813 C423.3125,608.7813 423.5,608.75 423.625,608.6719 C423.8906,608.5156 424.0313,608.2344 424.0313,607.9375 C424.0313,607.6719 423.9219,607.4063 423.6875,607.2344 C423.5156,607.125 423.375,607.0938 422.9219,607.0938 L417.7813,607.0938 C417.3438,607.0938 417.2188,607.1094 417.0625,607.2031 C416.8125,607.3594 416.6563,607.6563 416.6563,607.9375 C416.6563,608.2188 416.7969,608.4688 417.0156,608.6406 C417.1719,608.75 417.3594,608.7813 417.7813,608.7813 L419.5,608.7813 L419.5,615.2969 L417.7813,615.2969 C417.3438,615.2969 417.2188,615.3125 417.0625,615.4219 C416.8125,615.5781 416.6563,615.8594 416.6563,616.1563 C416.6563,616.4063 416.7969,616.6719 417.0156,616.8281 C417.1719,616.9531 417.375,617 417.7813,617 L422.9219,617 C423.6719,617 424.0313,616.7188 424.0313,616.1563 C424.0313,615.875 423.9219,615.625 423.6875,615.4531 C423.5156,615.3281 423.375,615.2969 422.9219,615.2969 L421.2031,615.2969 L421.2031,608.7813 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="177" x="440.75" y="616.1543">VendingMachineServiceLayer</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="357.5" x2="668.5" y1="628" y2="628"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="357.5" x2="668.5" y1="636" y2="636"/><ellipse cx="367.5" cy="647" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="138" x="376.5" y="650.2104">getAvailableItems(): List</text><ellipse cx="367.5" cy="659.8047" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="202" x="376.5" y="663.0151">getItemById(): Item {String itemId}</text><ellipse cx="367.5" cy="672.6094" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="287" x="376.5" y="675.8198">updateInventory(): void {String itemId, Item item}</text><ellipse cx="367.5" cy="685.4141" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="235" x="376.5" y="688.6245">setBalance(): void {BigDecimal balance}</text><ellipse cx="367.5" cy="698.2188" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="104" x="376.5" y="701.4292">getBalance(): void</text><ellipse cx="367.5" cy="711.0234" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="179" x="376.5" y="714.2339">vend(): Change {String itemId}</text><ellipse cx="367.5" cy="723.8281" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="283" x="376.5" y="727.0386">calculateChange(): Change {BigDecimal change}</text><!--MD5=[7a507b6fe2eb666d98df97a51df7ca60]
+class VendingMachineServiceLayerImpl--><rect fill="#FEFECE" filter="url(#fpznrzwdbzd5n)" height="48" id="VendingMachineServiceLayerImpl" style="stroke: #A80036; stroke-width: 1.5;" width="234" x="396" y="896"/><ellipse cx="411" cy="912" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M413.3438,907.6719 C412.4063,907.2344 411.8125,907.0938 410.9375,907.0938 C408.3125,907.0938 406.3125,909.1719 406.3125,911.8906 L406.3125,913.0156 C406.3125,915.5938 408.4219,917.4844 411.3125,917.4844 C412.5313,917.4844 413.6875,917.1875 414.4375,916.6406 C415.0156,916.2344 415.3438,915.7813 415.3438,915.3906 C415.3438,914.9375 414.9531,914.5469 414.4844,914.5469 C414.2656,914.5469 414.0625,914.625 413.875,914.8125 C413.4219,915.2969 413.4219,915.2969 413.2344,915.3906 C412.8125,915.6563 412.125,915.7813 411.3594,915.7813 C409.3125,915.7813 408.0156,914.6875 408.0156,912.9844 L408.0156,911.8906 C408.0156,910.1094 409.2656,908.7969 411,908.7969 C411.5781,908.7969 412.1875,908.9531 412.6563,909.2031 C413.1406,909.4844 413.3125,909.7031 413.4063,910.1094 C413.4688,910.5156 413.5,910.6406 413.6406,910.7656 C413.7813,910.9063 414.0156,911.0156 414.2344,911.0156 C414.5,911.0156 414.7656,910.875 414.9375,910.6563 C415.0469,910.5 415.0781,910.3125 415.0781,909.8906 L415.0781,908.4688 C415.0781,908.0313 415.0625,907.9063 414.9688,907.75 C414.8125,907.4844 414.5313,907.3438 414.2344,907.3438 C413.9375,907.3438 413.7344,907.4375 413.5156,907.75 L413.3438,907.6719 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="202" x="425" y="916.1543">VendingMachineServiceLayerImpl</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="397" x2="629" y1="928" y2="928"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="397" x2="629" y1="936" y2="936"/><!--MD5=[f0c6d393c65151ff2ad96bb9cd775528]
+class VendingMachineInsufficientFundsException--><rect fill="#FEFECE" filter="url(#fpznrzwdbzd5n)" height="48" id="VendingMachineInsufficientFundsException" style="stroke: #A80036; stroke-width: 1.5;" width="289" x="32.5" y="641"/><ellipse cx="47.5" cy="657" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M49.8438,652.6719 C48.9063,652.2344 48.3125,652.0938 47.4375,652.0938 C44.8125,652.0938 42.8125,654.1719 42.8125,656.8906 L42.8125,658.0156 C42.8125,660.5938 44.9219,662.4844 47.8125,662.4844 C49.0313,662.4844 50.1875,662.1875 50.9375,661.6406 C51.5156,661.2344 51.8438,660.7813 51.8438,660.3906 C51.8438,659.9375 51.4531,659.5469 50.9844,659.5469 C50.7656,659.5469 50.5625,659.625 50.375,659.8125 C49.9219,660.2969 49.9219,660.2969 49.7344,660.3906 C49.3125,660.6563 48.625,660.7813 47.8594,660.7813 C45.8125,660.7813 44.5156,659.6875 44.5156,657.9844 L44.5156,656.8906 C44.5156,655.1094 45.7656,653.7969 47.5,653.7969 C48.0781,653.7969 48.6875,653.9531 49.1563,654.2031 C49.6406,654.4844 49.8125,654.7031 49.9063,655.1094 C49.9688,655.5156 50,655.6406 50.1406,655.7656 C50.2813,655.9063 50.5156,656.0156 50.7344,656.0156 C51,656.0156 51.2656,655.875 51.4375,655.6563 C51.5469,655.5 51.5781,655.3125 51.5781,654.8906 L51.5781,653.4688 C51.5781,653.0313 51.5625,652.9063 51.4688,652.75 C51.3125,652.4844 51.0313,652.3438 50.7344,652.3438 C50.4375,652.3438 50.2344,652.4375 50.0156,652.75 L49.8438,652.6719 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="257" x="61.5" y="661.1543">VendingMachineInsufficientFundsException</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="33.5" x2="320.5" y1="673" y2="673"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="33.5" x2="320.5" y1="681" y2="681"/><!--MD5=[bb9bc751fdb899b2525c5c8e9150ce53]
+class VendingMachineOutOfStockException--><rect fill="#FEFECE" filter="url(#fpznrzwdbzd5n)" height="48" id="VendingMachineOutOfStockException" style="stroke: #A80036; stroke-width: 1.5;" width="258" x="705" y="641"/><ellipse cx="720" cy="657" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M722.3438,652.6719 C721.4063,652.2344 720.8125,652.0938 719.9375,652.0938 C717.3125,652.0938 715.3125,654.1719 715.3125,656.8906 L715.3125,658.0156 C715.3125,660.5938 717.4219,662.4844 720.3125,662.4844 C721.5313,662.4844 722.6875,662.1875 723.4375,661.6406 C724.0156,661.2344 724.3438,660.7813 724.3438,660.3906 C724.3438,659.9375 723.9531,659.5469 723.4844,659.5469 C723.2656,659.5469 723.0625,659.625 722.875,659.8125 C722.4219,660.2969 722.4219,660.2969 722.2344,660.3906 C721.8125,660.6563 721.125,660.7813 720.3594,660.7813 C718.3125,660.7813 717.0156,659.6875 717.0156,657.9844 L717.0156,656.8906 C717.0156,655.1094 718.2656,653.7969 720,653.7969 C720.5781,653.7969 721.1875,653.9531 721.6563,654.2031 C722.1406,654.4844 722.3125,654.7031 722.4063,655.1094 C722.4688,655.5156 722.5,655.6406 722.6406,655.7656 C722.7813,655.9063 723.0156,656.0156 723.2344,656.0156 C723.5,656.0156 723.7656,655.875 723.9375,655.6563 C724.0469,655.5 724.0781,655.3125 724.0781,654.8906 L724.0781,653.4688 C724.0781,653.0313 724.0625,652.9063 723.9688,652.75 C723.8125,652.4844 723.5313,652.3438 723.2344,652.3438 C722.9375,652.3438 722.7344,652.4375 722.5156,652.75 L722.3438,652.6719 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="226" x="734" y="661.1543">VendingMachineOutOfStockException</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="706" x2="962" y1="673" y2="673"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="706" x2="962" y1="681" y2="681"/><!--MD5=[537b10fe8797a8f32b3c7b0311deed5e]
+class VendingMachineNoItemInventoryException--><rect fill="#FEFECE" filter="url(#fpznrzwdbzd5n)" height="48" id="VendingMachineNoItemInventoryException" style="stroke: #A80036; stroke-width: 1.5;" width="287" x="33.5" y="896"/><ellipse cx="48.5" cy="912" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M50.8438,907.6719 C49.9063,907.2344 49.3125,907.0938 48.4375,907.0938 C45.8125,907.0938 43.8125,909.1719 43.8125,911.8906 L43.8125,913.0156 C43.8125,915.5938 45.9219,917.4844 48.8125,917.4844 C50.0313,917.4844 51.1875,917.1875 51.9375,916.6406 C52.5156,916.2344 52.8438,915.7813 52.8438,915.3906 C52.8438,914.9375 52.4531,914.5469 51.9844,914.5469 C51.7656,914.5469 51.5625,914.625 51.375,914.8125 C50.9219,915.2969 50.9219,915.2969 50.7344,915.3906 C50.3125,915.6563 49.625,915.7813 48.8594,915.7813 C46.8125,915.7813 45.5156,914.6875 45.5156,912.9844 L45.5156,911.8906 C45.5156,910.1094 46.7656,908.7969 48.5,908.7969 C49.0781,908.7969 49.6875,908.9531 50.1563,909.2031 C50.6406,909.4844 50.8125,909.7031 50.9063,910.1094 C50.9688,910.5156 51,910.6406 51.1406,910.7656 C51.2813,910.9063 51.5156,911.0156 51.7344,911.0156 C52,911.0156 52.2656,910.875 52.4375,910.6563 C52.5469,910.5 52.5781,910.3125 52.5781,909.8906 L52.5781,908.4688 C52.5781,908.0313 52.5625,907.9063 52.4688,907.75 C52.3125,907.4844 52.0313,907.3438 51.7344,907.3438 C51.4375,907.3438 51.2344,907.4375 51.0156,907.75 L50.8438,907.6719 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="255" x="62.5" y="916.1543">VendingMachineNoItemInventoryException</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="34.5" x2="319.5" y1="928" y2="928"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="34.5" x2="319.5" y1="936" y2="936"/><!--MD5=[2e3b7558d9295dae98eeb4c4e9fb2cc8]
+class VendingMachineController--><rect fill="#FEFECE" filter="url(#fpznrzwdbzd5n)" height="176.0469" id="VendingMachineController" style="stroke: #A80036; stroke-width: 1.5;" width="231" x="1019.5" y="832"/><ellipse cx="1053.4" cy="848" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M1055.7438,843.6719 C1054.8063,843.2344 1054.2125,843.0938 1053.3375,843.0938 C1050.7125,843.0938 1048.7125,845.1719 1048.7125,847.8906 L1048.7125,849.0156 C1048.7125,851.5938 1050.8219,853.4844 1053.7125,853.4844 C1054.9313,853.4844 1056.0875,853.1875 1056.8375,852.6406 C1057.4156,852.2344 1057.7438,851.7813 1057.7438,851.3906 C1057.7438,850.9375 1057.3531,850.5469 1056.8844,850.5469 C1056.6656,850.5469 1056.4625,850.625 1056.275,850.8125 C1055.8219,851.2969 1055.8219,851.2969 1055.6344,851.3906 C1055.2125,851.6563 1054.525,851.7813 1053.7594,851.7813 C1051.7125,851.7813 1050.4156,850.6875 1050.4156,848.9844 L1050.4156,847.8906 C1050.4156,846.1094 1051.6656,844.7969 1053.4,844.7969 C1053.9781,844.7969 1054.5875,844.9531 1055.0563,845.2031 C1055.5406,845.4844 1055.7125,845.7031 1055.8063,846.1094 C1055.8688,846.5156 1055.9,846.6406 1056.0406,846.7656 C1056.1813,846.9063 1056.4156,847.0156 1056.6344,847.0156 C1056.9,847.0156 1057.1656,846.875 1057.3375,846.6563 C1057.4469,846.5 1057.4781,846.3125 1057.4781,845.8906 L1057.4781,844.4688 C1057.4781,844.0313 1057.4625,843.9063 1057.3688,843.75 C1057.2125,843.4844 1056.9313,843.3438 1056.6344,843.3438 C1056.3375,843.3438 1056.1344,843.4375 1055.9156,843.75 L1055.7438,843.6719 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="157" x="1071.6" y="852.1543">VendingMachineController</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="1020.5" x2="1249.5" y1="864" y2="864"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="156" x="1025.5" y="878.2104">view: VendingMachineView</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="219" x="1025.5" y="891.0151">service: VendingMachineServiceLayer</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="1020.5" x2="1249.5" y1="897.6094" y2="897.6094"/><ellipse cx="1030.5" cy="908.6094" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="57" x="1039.5" y="911.8198">run(): void</text><rect fill="#F24D5C" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="1027.5" y="918.4141"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="110" x="1039.5" y="924.6245">displayMenu(): void</text><rect fill="#F24D5C" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="1027.5" y="931.2188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="117" x="1039.5" y="937.4292">insertBalance(): void</text><rect fill="#F24D5C" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="1027.5" y="944.0234"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="152" x="1039.5" y="950.2339">getMenuSelection(): String</text><rect fill="#F24D5C" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="1027.5" y="956.8281"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="198" x="1039.5" y="963.0386">vend(): void String {String itemID}</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="0" x="1043.5" y="975.8433"/><rect fill="#F24D5C" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="1027.5" y="982.4375"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="147" x="1039.5" y="988.6479">unknownCommand(): void</text><rect fill="#F24D5C" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="1027.5" y="995.2422"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="151" x="1039.5" y="1001.4526">displayExitMessage(): void</text><!--MD5=[6984378f09f58bca42057d0ff216fed9]
+class VendingMachineDao--><rect fill="#FEFECE" filter="url(#fpznrzwdbzd5n)" height="86.4141" id="VendingMachineDao" style="stroke: #A80036; stroke-width: 1.5;" width="315" x="977.5" y="1108"/><ellipse cx="1069.25" cy="1124" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M1070.2031,1120.7813 L1071.9219,1120.7813 C1072.3125,1120.7813 1072.5,1120.75 1072.625,1120.6719 C1072.8906,1120.5156 1073.0313,1120.2344 1073.0313,1119.9375 C1073.0313,1119.6719 1072.9219,1119.4063 1072.6875,1119.2344 C1072.5156,1119.125 1072.375,1119.0938 1071.9219,1119.0938 L1066.7813,1119.0938 C1066.3438,1119.0938 1066.2188,1119.1094 1066.0625,1119.2031 C1065.8125,1119.3594 1065.6563,1119.6563 1065.6563,1119.9375 C1065.6563,1120.2188 1065.7969,1120.4688 1066.0156,1120.6406 C1066.1719,1120.75 1066.3594,1120.7813 1066.7813,1120.7813 L1068.5,1120.7813 L1068.5,1127.2969 L1066.7813,1127.2969 C1066.3438,1127.2969 1066.2188,1127.3125 1066.0625,1127.4219 C1065.8125,1127.5781 1065.6563,1127.8594 1065.6563,1128.1563 C1065.6563,1128.4063 1065.7969,1128.6719 1066.0156,1128.8281 C1066.1719,1128.9531 1066.375,1129 1066.7813,1129 L1071.9219,1129 C1072.6719,1129 1073.0313,1128.7188 1073.0313,1128.1563 C1073.0313,1127.875 1072.9219,1127.625 1072.6875,1127.4531 C1072.5156,1127.3281 1072.375,1127.2969 1071.9219,1127.2969 L1070.2031,1127.2969 L1070.2031,1120.7813 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="123" x="1089.75" y="1128.1543">VendingMachineDao</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="978.5" x2="1291.5" y1="1140" y2="1140"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="978.5" x2="1291.5" y1="1148" y2="1148"/><ellipse cx="988.5" cy="1159" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="289" x="997.5" y="1162.2104">updateInventory(): void {String itemID, Item item}</text><ellipse cx="988.5" cy="1171.8047" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="156" x="997.5" y="1175.0151">readAllItems(): List&lt;Items&gt;</text><ellipse cx="988.5" cy="1184.6094" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="185" x="997.5" y="1187.8198">readById(): Item {String itemID}</text><!--MD5=[29c4e668bd5e80e508669fac14527401]
+class VendingMachineDaoFileImpl--><rect fill="#FEFECE" filter="url(#fpznrzwdbzd5n)" height="112.0234" id="VendingMachineDaoFileImpl" style="stroke: #A80036; stroke-width: 1.5;" width="327" x="965.5" y="1271"/><ellipse cx="980.5" cy="1287" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M982.8438,1282.6719 C981.9063,1282.2344 981.3125,1282.0938 980.4375,1282.0938 C977.8125,1282.0938 975.8125,1284.1719 975.8125,1286.8906 L975.8125,1288.0156 C975.8125,1290.5938 977.9219,1292.4844 980.8125,1292.4844 C982.0313,1292.4844 983.1875,1292.1875 983.9375,1291.6406 C984.5156,1291.2344 984.8438,1290.7813 984.8438,1290.3906 C984.8438,1289.9375 984.4531,1289.5469 983.9844,1289.5469 C983.7656,1289.5469 983.5625,1289.625 983.375,1289.8125 C982.9219,1290.2969 982.9219,1290.2969 982.7344,1290.3906 C982.3125,1290.6563 981.625,1290.7813 980.8594,1290.7813 C978.8125,1290.7813 977.5156,1289.6875 977.5156,1287.9844 L977.5156,1286.8906 C977.5156,1285.1094 978.7656,1283.7969 980.5,1283.7969 C981.0781,1283.7969 981.6875,1283.9531 982.1563,1284.2031 C982.6406,1284.4844 982.8125,1284.7031 982.9063,1285.1094 C982.9688,1285.5156 983,1285.6406 983.1406,1285.7656 C983.2813,1285.9063 983.5156,1286.0156 983.7344,1286.0156 C984,1286.0156 984.2656,1285.875 984.4375,1285.6563 C984.5469,1285.5 984.5781,1285.3125 984.5781,1284.8906 L984.5781,1283.4688 C984.5781,1283.0313 984.5625,1282.9063 984.4688,1282.75 C984.3125,1282.4844 984.0313,1282.3438 983.7344,1282.3438 C983.4375,1282.3438 983.2344,1282.4375 983.0156,1282.75 L982.8438,1282.6719 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="168" x="994.5" y="1291.1543">VendingMachineDaoFileImpl</text><rect fill="#FFFFFF" height="15.9688" style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" width="125" x="1170.5" y="1268"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="123" x="1171.5" y="1280.1387">VendingMachineDao</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="966.5" x2="1291.5" y1="1303" y2="1303"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="973.5" y="1311"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="174" x="985.5" y="1317.2104">items: HashMap&lt;String, Item&gt;</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="973.5" y="1323.8047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="92" x="985.5" y="1330.0151">INVENTORY_FILE</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="973.5" y="1336.6094"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="58" x="985.5" y="1342.8198">DELIMITER</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="966.5" x2="1291.5" y1="1349.4141" y2="1349.4141"/><rect fill="#F24D5C" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="973.5" y="1357.4141"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="117" x="985.5" y="1363.6245">loadInventory(): void</text><rect fill="#F24D5C" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="973.5" y="1370.2188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="121" x="985.5" y="1376.4292">writeInventory(): void</text><!--MD5=[df89cbedf4fe362dbcbd4ad5a009ca3c]
+class VendingMachinePersistenceException--><rect fill="#FEFECE" filter="url(#fpznrzwdbzd5n)" height="48" id="VendingMachinePersistenceException" style="stroke: #A80036; stroke-width: 1.5;" width="259" x="683.5" y="1127"/><ellipse cx="698.5" cy="1143" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M700.8438,1138.6719 C699.9063,1138.2344 699.3125,1138.0938 698.4375,1138.0938 C695.8125,1138.0938 693.8125,1140.1719 693.8125,1142.8906 L693.8125,1144.0156 C693.8125,1146.5938 695.9219,1148.4844 698.8125,1148.4844 C700.0313,1148.4844 701.1875,1148.1875 701.9375,1147.6406 C702.5156,1147.2344 702.8438,1146.7813 702.8438,1146.3906 C702.8438,1145.9375 702.4531,1145.5469 701.9844,1145.5469 C701.7656,1145.5469 701.5625,1145.625 701.375,1145.8125 C700.9219,1146.2969 700.9219,1146.2969 700.7344,1146.3906 C700.3125,1146.6563 699.625,1146.7813 698.8594,1146.7813 C696.8125,1146.7813 695.5156,1145.6875 695.5156,1143.9844 L695.5156,1142.8906 C695.5156,1141.1094 696.7656,1139.7969 698.5,1139.7969 C699.0781,1139.7969 699.6875,1139.9531 700.1563,1140.2031 C700.6406,1140.4844 700.8125,1140.7031 700.9063,1141.1094 C700.9688,1141.5156 701,1141.6406 701.1406,1141.7656 C701.2813,1141.9063 701.5156,1142.0156 701.7344,1142.0156 C702,1142.0156 702.2656,1141.875 702.4375,1141.6563 C702.5469,1141.5 702.5781,1141.3125 702.5781,1140.8906 L702.5781,1139.4688 C702.5781,1139.0313 702.5625,1138.9063 702.4688,1138.75 C702.3125,1138.4844 702.0313,1138.3438 701.7344,1138.3438 C701.4375,1138.3438 701.2344,1138.4375 701.0156,1138.75 L700.8438,1138.6719 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="227" x="712.5" y="1147.1543">VendingMachinePersistenceException</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="684.5" x2="941.5" y1="1159" y2="1159"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="684.5" x2="941.5" y1="1167" y2="1167"/><!--MD5=[9017b245865b13ea320103996f747f81]
+class VendingMachineAuditDao--><rect fill="#FEFECE" filter="url(#fpznrzwdbzd5n)" height="60.8047" id="VendingMachineAuditDao" style="stroke: #A80036; stroke-width: 1.5;" width="236" x="412" y="1120.5"/><ellipse cx="449.05" cy="1136.5" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M450.0031,1133.2813 L451.7219,1133.2813 C452.1125,1133.2813 452.3,1133.25 452.425,1133.1719 C452.6906,1133.0156 452.8313,1132.7344 452.8313,1132.4375 C452.8313,1132.1719 452.7219,1131.9063 452.4875,1131.7344 C452.3156,1131.625 452.175,1131.5938 451.7219,1131.5938 L446.5813,1131.5938 C446.1438,1131.5938 446.0188,1131.6094 445.8625,1131.7031 C445.6125,1131.8594 445.4563,1132.1563 445.4563,1132.4375 C445.4563,1132.7188 445.5969,1132.9688 445.8156,1133.1406 C445.9719,1133.25 446.1594,1133.2813 446.5813,1133.2813 L448.3,1133.2813 L448.3,1139.7969 L446.5813,1139.7969 C446.1438,1139.7969 446.0188,1139.8125 445.8625,1139.9219 C445.6125,1140.0781 445.4563,1140.3594 445.4563,1140.6563 C445.4563,1140.9063 445.5969,1141.1719 445.8156,1141.3281 C445.9719,1141.4531 446.175,1141.5 446.5813,1141.5 L451.7219,1141.5 C452.4719,1141.5 452.8313,1141.2188 452.8313,1140.6563 C452.8313,1140.375 452.7219,1140.125 452.4875,1139.9531 C452.3156,1139.8281 452.175,1139.7969 451.7219,1139.7969 L450.0031,1139.7969 L450.0031,1133.2813 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="155" x="467.95" y="1140.6543">VendingMachineAuditDao</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="413" x2="647" y1="1152.5" y2="1152.5"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="413" x2="647" y1="1160.5" y2="1160.5"/><ellipse cx="423" cy="1171.5" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="210" x="432" y="1174.7104">writeAuditEntry(): void {String entry}</text><!--MD5=[76f75975a12d1a2519db1dc1ce266308]
+class VendingMachineAuditDaoFileImpl--><rect fill="#FEFECE" filter="url(#fpznrzwdbzd5n)" height="60.8047" id="VendingMachineAuditDaoFileImpl" style="stroke: #A80036; stroke-width: 1.5;" width="230" x="415" y="1296.5"/><ellipse cx="430" cy="1312.5" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M432.3438,1308.1719 C431.4063,1307.7344 430.8125,1307.5938 429.9375,1307.5938 C427.3125,1307.5938 425.3125,1309.6719 425.3125,1312.3906 L425.3125,1313.5156 C425.3125,1316.0938 427.4219,1317.9844 430.3125,1317.9844 C431.5313,1317.9844 432.6875,1317.6875 433.4375,1317.1406 C434.0156,1316.7344 434.3438,1316.2813 434.3438,1315.8906 C434.3438,1315.4375 433.9531,1315.0469 433.4844,1315.0469 C433.2656,1315.0469 433.0625,1315.125 432.875,1315.3125 C432.4219,1315.7969 432.4219,1315.7969 432.2344,1315.8906 C431.8125,1316.1563 431.125,1316.2813 430.3594,1316.2813 C428.3125,1316.2813 427.0156,1315.1875 427.0156,1313.4844 L427.0156,1312.3906 C427.0156,1310.6094 428.2656,1309.2969 430,1309.2969 C430.5781,1309.2969 431.1875,1309.4531 431.6563,1309.7031 C432.1406,1309.9844 432.3125,1310.2031 432.4063,1310.6094 C432.4688,1311.0156 432.5,1311.1406 432.6406,1311.2656 C432.7813,1311.4063 433.0156,1311.5156 433.2344,1311.5156 C433.5,1311.5156 433.7656,1311.375 433.9375,1311.1563 C434.0469,1311 434.0781,1310.8125 434.0781,1310.3906 L434.0781,1308.9688 C434.0781,1308.5313 434.0625,1308.4063 433.9688,1308.25 C433.8125,1307.9844 433.5313,1307.8438 433.2344,1307.8438 C432.9375,1307.8438 432.7344,1307.9375 432.5156,1308.25 L432.3438,1308.1719 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="198" x="444" y="1316.6543">VendingMachineAuditDaoFileImpl</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="416" x2="644" y1="1328.5" y2="1328.5"/><ellipse cx="426" cy="1339.5" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="63" x="435" y="1342.7104">AUDIT_FILE</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="416" x2="644" y1="1349.3047" y2="1349.3047"/><!--MD5=[44a1b4afaef76c16e6c9ec4990ad0c8d]
+class Item--><rect fill="#FEFECE" filter="url(#fpznrzwdbzd5n)" height="188.8516" id="Item" style="stroke: #A80036; stroke-width: 1.5;" width="279" x="989.5" y="1508.5"/><ellipse cx="1111.75" cy="1524.5" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M1114.0938,1520.1719 C1113.1563,1519.7344 1112.5625,1519.5938 1111.6875,1519.5938 C1109.0625,1519.5938 1107.0625,1521.6719 1107.0625,1524.3906 L1107.0625,1525.5156 C1107.0625,1528.0938 1109.1719,1529.9844 1112.0625,1529.9844 C1113.2813,1529.9844 1114.4375,1529.6875 1115.1875,1529.1406 C1115.7656,1528.7344 1116.0938,1528.2813 1116.0938,1527.8906 C1116.0938,1527.4375 1115.7031,1527.0469 1115.2344,1527.0469 C1115.0156,1527.0469 1114.8125,1527.125 1114.625,1527.3125 C1114.1719,1527.7969 1114.1719,1527.7969 1113.9844,1527.8906 C1113.5625,1528.1563 1112.875,1528.2813 1112.1094,1528.2813 C1110.0625,1528.2813 1108.7656,1527.1875 1108.7656,1525.4844 L1108.7656,1524.3906 C1108.7656,1522.6094 1110.0156,1521.2969 1111.75,1521.2969 C1112.3281,1521.2969 1112.9375,1521.4531 1113.4063,1521.7031 C1113.8906,1521.9844 1114.0625,1522.2031 1114.1563,1522.6094 C1114.2188,1523.0156 1114.25,1523.1406 1114.3906,1523.2656 C1114.5313,1523.4063 1114.7656,1523.5156 1114.9844,1523.5156 C1115.25,1523.5156 1115.5156,1523.375 1115.6875,1523.1563 C1115.7969,1523 1115.8281,1522.8125 1115.8281,1522.3906 L1115.8281,1520.9688 C1115.8281,1520.5313 1115.8125,1520.4063 1115.7188,1520.25 C1115.5625,1519.9844 1115.2813,1519.8438 1114.9844,1519.8438 C1114.6875,1519.8438 1114.4844,1519.9375 1114.2656,1520.25 L1114.0938,1520.1719 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="26" x="1132.25" y="1528.6543">Item</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="990.5" x2="1267.5" y1="1540.5" y2="1540.5"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="997.5" y="1548.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="78" x="1009.5" y="1554.7104">itemID: String</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="997.5" y="1561.3047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="100" x="1009.5" y="1567.5151">itemName: String</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="997.5" y="1574.1094"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="125" x="1009.5" y="1580.3198">itemPrice: BigDecimal</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="997.5" y="1586.9141"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="80" x="1009.5" y="1593.1245">itemCount: int</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="990.5" x2="1267.5" y1="1599.7188" y2="1599.7188"/><ellipse cx="1000.5" cy="1610.7188" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="105" x="1009.5" y="1613.9292">getItemID(): String</text><ellipse cx="1000.5" cy="1623.5234" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="127" x="1009.5" y="1626.7339">getItemName(): String</text><ellipse cx="1000.5" cy="1636.3281" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="235" x="1009.5" y="1639.5386">setItemName(): void {itemName: String}</text><ellipse cx="1000.5" cy="1649.1328" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="152" x="1009.5" y="1652.3433">getItemPrice(): BigDecimal</text><ellipse cx="1000.5" cy="1661.9375" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="253" x="1009.5" y="1665.1479">setItemPrice(): void {itemPrice: BigDecimal}</text><ellipse cx="1000.5" cy="1674.7422" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="107" x="1009.5" y="1677.9526">getItemCount(): int</text><ellipse cx="1000.5" cy="1687.5469" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="214" x="1009.5" y="1690.7573">setItemCount(): void {itemCount: int}</text><!--MD5=[371364a6d7b486039f21f31616b5ee45]
+class Change--><rect fill="#FEFECE" filter="url(#fpznrzwdbzd5n)" height="240.0703" id="Change" style="stroke: #A80036; stroke-width: 1.5;" width="226" x="728" y="1483"/><ellipse cx="814.25" cy="1499" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M816.5938,1494.6719 C815.6563,1494.2344 815.0625,1494.0938 814.1875,1494.0938 C811.5625,1494.0938 809.5625,1496.1719 809.5625,1498.8906 L809.5625,1500.0156 C809.5625,1502.5938 811.6719,1504.4844 814.5625,1504.4844 C815.7813,1504.4844 816.9375,1504.1875 817.6875,1503.6406 C818.2656,1503.2344 818.5938,1502.7813 818.5938,1502.3906 C818.5938,1501.9375 818.2031,1501.5469 817.7344,1501.5469 C817.5156,1501.5469 817.3125,1501.625 817.125,1501.8125 C816.6719,1502.2969 816.6719,1502.2969 816.4844,1502.3906 C816.0625,1502.6563 815.375,1502.7813 814.6094,1502.7813 C812.5625,1502.7813 811.2656,1501.6875 811.2656,1499.9844 L811.2656,1498.8906 C811.2656,1497.1094 812.5156,1495.7969 814.25,1495.7969 C814.8281,1495.7969 815.4375,1495.9531 815.9063,1496.2031 C816.3906,1496.4844 816.5625,1496.7031 816.6563,1497.1094 C816.7188,1497.5156 816.75,1497.6406 816.8906,1497.7656 C817.0313,1497.9063 817.2656,1498.0156 817.4844,1498.0156 C817.75,1498.0156 818.0156,1497.875 818.1875,1497.6563 C818.2969,1497.5 818.3281,1497.3125 818.3281,1496.8906 L818.3281,1495.4688 C818.3281,1495.0313 818.3125,1494.9063 818.2188,1494.75 C818.0625,1494.4844 817.7813,1494.3438 817.4844,1494.3438 C817.1875,1494.3438 816.9844,1494.4375 816.7656,1494.75 L816.5938,1494.6719 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="45" x="834.75" y="1503.1543">Change</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="729" x2="953" y1="1515" y2="1515"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="736" y="1523"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="97" x="748" y="1529.2104">total: BigDecimal</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="736" y="1535.8047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="67" x="748" y="1542.0151">pennies: int</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="736" y="1548.6094"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="60" x="748" y="1554.8198">nickels: int</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="736" y="1561.4141"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="56" x="748" y="1567.6245">dimes: int</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="736" y="1574.2188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="68" x="748" y="1580.4292">quarters: int</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="729" x2="953" y1="1587.0234" y2="1587.0234"/><ellipse cx="739" cy="1598.0234" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="127" x="748" y="1601.2339">getTotal(): BigDecimal</text><ellipse cx="739" cy="1610.8281" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="200" x="748" y="1614.0386">setTotal(): void {total: BigDecimal}</text><ellipse cx="739" cy="1623.6328" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="93" x="748" y="1626.8433">getPennies(): int</text><ellipse cx="739" cy="1636.4375" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="187" x="748" y="1639.6479">setPennies(): void {pennies: int}</text><ellipse cx="739" cy="1649.2422" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="88" x="748" y="1652.4526">getNickels(): int</text><ellipse cx="739" cy="1662.0469" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="175" x="748" y="1665.2573">setNickels(): void {nickels: int}</text><ellipse cx="739" cy="1674.8516" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="85" x="748" y="1678.062">getDimes(): int</text><ellipse cx="739" cy="1687.6563" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="168" x="748" y="1690.8667">setDimes(): void {dimes: int}</text><ellipse cx="739" cy="1700.4609" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="97" x="748" y="1703.6714">getQuarters(): int</text><ellipse cx="739" cy="1713.2656" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="192" x="748" y="1716.4761">setQuarters(): void {quarters: int}</text><!--MD5=[374c71e852d13865fda8351208c6a415]
+class Coins--><rect fill="#FEFECE" filter="url(#fpznrzwdbzd5n)" height="99.2188" id="Coins" style="stroke: #A80036; stroke-width: 1.5;" width="65" x="627.5" y="1553.5"/><ellipse cx="642.5" cy="1569.5" fill="#EB937F" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M641.2969,1570.375 L642.75,1570.375 L642.75,1570.4844 C642.75,1570.8906 642.7813,1571.0469 642.8594,1571.2031 C643.0156,1571.4531 643.2969,1571.6094 643.5938,1571.6094 C643.8438,1571.6094 644.1094,1571.4688 644.2656,1571.25 C644.3906,1571.0938 644.4219,1570.9375 644.4219,1570.4844 L644.4219,1568.5625 C644.4219,1568.4063 644.4219,1568.3594 644.4063,1568.2031 C644.3438,1567.7344 644.0313,1567.4219 643.5781,1567.4219 C643.3281,1567.4219 643.0625,1567.5625 642.8906,1567.7813 C642.7813,1567.9531 642.75,1568.1094 642.75,1568.5625 L642.75,1568.6875 L641.2969,1568.6875 L641.2969,1566.2813 L645.2813,1566.2813 L645.2813,1567.1406 C645.2813,1567.5469 645.3125,1567.7188 645.3906,1567.875 C645.5625,1568.125 645.8438,1568.2813 646.125,1568.2813 C646.3906,1568.2813 646.6563,1568.1406 646.8281,1567.9219 C646.9375,1567.75 646.9688,1567.6094 646.9688,1567.1406 L646.9688,1564.5938 L639.3438,1564.5938 C638.9063,1564.5938 638.7813,1564.6094 638.625,1564.7031 C638.375,1564.8594 638.2188,1565.1563 638.2188,1565.4375 C638.2188,1565.7188 638.3594,1565.9688 638.5781,1566.1406 C638.7344,1566.25 638.9219,1566.2813 639.3438,1566.2813 L639.5938,1566.2813 L639.5938,1572.7969 L639.3438,1572.7969 C638.9375,1572.7969 638.7813,1572.8125 638.625,1572.9219 C638.375,1573.0938 638.2188,1573.3594 638.2188,1573.6563 C638.2188,1573.9219 638.3594,1574.1719 638.5781,1574.3281 C638.7188,1574.4531 638.9531,1574.5 639.3438,1574.5 L647.3438,1574.5 L647.3438,1571.9219 C647.3438,1571.4844 647.3125,1571.3438 647.2344,1571.1875 C647.0625,1570.9375 646.7813,1570.7813 646.5,1570.7813 C646.2344,1570.7813 645.9688,1570.8906 645.7969,1571.1406 C645.6875,1571.2969 645.6563,1571.4375 645.6563,1571.9219 L645.6563,1572.7969 L641.2969,1572.7969 L641.2969,1570.375 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="33" x="656.5" y="1573.6543">Coins</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="628.5" x2="691.5" y1="1585.5" y2="1585.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="36" x="633.5" y="1599.7104">PENNY</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="39" x="633.5" y="1612.5151">NICKEL</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="28" x="633.5" y="1625.3198">DIME</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="53" x="633.5" y="1638.1245">QUARTER</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="628.5" x2="691.5" y1="1644.7188" y2="1644.7188"/><!--MD5=[bf06d5b8a2ea18ce208a3e70c949e705]
+reverse link UserIO to UserIOConsoleImpl--><path d="M698.206,260.49 C726.373,306.96 756.012,355.87 772.927,383.78 " fill="none" id="UserIO&lt;-UserIOConsoleImpl" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="692.097,263.92,687.717,243.18,704.07,256.66,692.097,263.92" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="76" x="713" y="286.0669">Implements</text><!--MD5=[cb65cc4968e9b101b08558673dba8bed]
+reverse link VendingMachineServiceLayer to VendingMachineServiceLayerImpl--><path d="M513,754.34 C513,804.69 513,863.936 513,895.841 " fill="none" id="VendingMachineServiceLayer&lt;-VendingMachineServiceLayerImpl" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="506,754.13,513,734.13,520,754.13,506,754.13" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="76" x="514" y="777.0669">Implements</text><!--MD5=[82a99c44b30856cd97af26c0def6ab77]
+reverse link VendingMachineDao to VendingMachineDaoFileImpl--><path d="M1132.86,1214.111 C1132.22,1232.61 1131.53,1252.749 1130.9,1270.777 " fill="none" id="VendingMachineDao&lt;-VendingMachineDaoFileImpl" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="1125.86,1213.867,1133.55,1194.121,1139.85,1214.35,1125.86,1213.867" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="76" x="1133" y="1237.0669">Implements</text><!--MD5=[e383024354fc6912c83f5aee21111bae]
+reverse link VendingMachineAuditDao to VendingMachineAuditDaoFileImpl--><path d="M530,1201.69 C530,1232.264 530,1270.421 530,1296.338 " fill="none" id="VendingMachineAuditDao&lt;-VendingMachineAuditDaoFileImpl" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="523,1201.517,530,1181.517,537,1201.517,523,1201.517" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="76" x="531" y="1237.0669">Implements</text><!--MD5=[185d901509508fb059b5bc3f5ce6f570]
+link UserIO to VendingMachineView--><path d="M583.739,243.18 C574.587,264.38 564.933,286.73 555.799,307.89 " fill="none" id="UserIO-&gt;VendingMachineView" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="550.637,319.84,556.6887,315.9187,555.3966,308.8243,549.3449,312.7456,550.637,319.84" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="80" x="571" y="286.0669">Composition</text><!--MD5=[c826df4a82e3a4a744f135360e0629b7]
+reverse link VendingMachineView to VendingMachineServiceLayer--><path d="M513,509.22 C513,538.25 513,569.27 513,595.85 " fill="none" id="VendingMachineView&lt;-VendingMachineServiceLayer" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="513,496.04,509,502.04,513,508.04,517,502.04,513,496.04" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="80" x="514" y="541.0669">Composition</text><!--MD5=[26305d5d16ea71f69a847f79aee427b5]
+link VendingMachineServiceLayer to VendingMachineController--><path d="M669.513,728.71 C675.39,730.57 681.232,732.35 687,734 C813.94,770.415 859.544,732.7 979,789 C998.594,798.235 1017.77,810.526 1035.6,823.873 " fill="none" id="VendingMachineServiceLayer-&gt;VendingMachineController" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="1045.93,831.839,1043.6168,825.009,1036.4224,824.5174,1038.7357,831.3474,1045.93,831.839" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="80" x="959" y="777.0669">Composition</text><!--MD5=[53dd593c53edee8d5333b296ee585a59]
+reverse link VendingMachineController to VendingMachineDao--><path d="M1135,1021.569 C1135,1051.878 1135,1083.509 1135,1107.796 " fill="none" id="VendingMachineController&lt;-VendingMachineDao" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="1135,1008.228,1131,1014.228,1135,1020.228,1139,1014.228,1135,1008.228" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="80" x="1136" y="1053.0669">Composition</text><!--MD5=[d9165aac8a1fb2fd100d64810436233a]
+reverse link VendingMachineDaoFileImpl to Item--><path d="M1129,1396.186 C1129,1430.079 1129,1471.562 1129,1508.382 " fill="none" id="VendingMachineDaoFileImpl&lt;-Item" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="1129,1383.118,1125,1389.118,1129,1395.118,1133,1389.118,1129,1383.118" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="80" x="1130" y="1428.0669">Composition</text><!--MD5=[5566fb0033d3e9513b63c7348a9ebaab]
+link VendingMachineInsufficientFundsException to VendingMachineOutOfStockException--><!--MD5=[15e712644926ebbb80132d209bfbc726]
+link VendingMachineInsufficientFundsException to VendingMachineNoItemInventoryException--><!--MD5=[528bfca4be70f9a04ff911c1e10538c2]
+@startuml
+top to bottom direction
+
+package view{
+  class VendingMachineView {
+    -io: UserIO
+
+    +getMenuSelection(): String 
+    +getBalance(): BigDecimal
+
+    +displayMenuItems(): void {List<Item> items}
+    +displayChange(): void {Change change}
+
+    
+    +displayIntroBanner(): void
+    +displayExit Banner(): void
+    +displayErrorMessage(): void {String errorMsg}
+    +displayUnknownCommandBanner(): void
+    
+  }
+
+  interface UserIO{
+    +print(): void {msg: String}
+    +readDouble(): double {prompt: String}
+    +readDouble(): double {prompt: String, min: double, max: double}
+    +readFloat(): float {prompt: String}
+    +readFloat(): float {prompt: String, min: float, max: float}
+    +readInt(): int {prompt: String}
+    +readInt(): int {prompt: String, min: int, max: int}
+    +readLong(): long {prompt: String}
+    +readLong(): long {prompt: String, min: long, max: long}
+    +readBigDecimal(): BigDecimal {prompt: String}
+    +readBigDecimal(): BigDecimal {prompt: String, min: BigDecimal, max: BigDecimal}
+    +readString(): String {prompt: String}
+  }
+
+  class UserIOConsoleImpl <UserIO>{}
+
+  UserIO <|-down- UserIOConsoleImpl: Implements
+}
+
+package service{
+  interface VendingMachineServiceLayer{
+    +getAvailableItems(): List
+    +getItemById(): Item {String itemId}
+    +updateInventory(): void {String itemId, Item item}
+    +setBalance(): void {BigDecimal balance}
+    +getBalance(): void
+    +vend(): Change {String itemId}
+    +calculateChange(): Change {BigDecimal change}
+  }
+  
+  class VendingMachineServiceLayerImpl {
+  
+  }
+  
+  class VendingMachineInsufficientFundsException{}
+  class VendingMachineOutOfStockException{}
+  class VendingMachineNoItemInventoryException{}
+  
+  VendingMachineServiceLayer <|-down- VendingMachineServiceLayerImpl: Implements
+  'VendingMachineInsufficientFundsException <|-up- Exception: Exdends
+  'VendingMachineOutOfStockException <|-up- Exception: Exdends
+  'VendingMachineNoItemInventoryException <|-up- Exception: Exdends
+}
+
+package controller{
+  class VendingMachineController{
+    view: VendingMachineView
+    service: VendingMachineServiceLayer
+
+    +run(): void
+    -displayMenu(): void
+    -insertBalance(): void
+    -getMenuSelection(): String
+    -vend(): void String {String itemID}
+    
+    -unknownCommand(): void
+    -displayExitMessage(): void
+  }
+}
+
+package dao{
+  interface VendingMachineDao{
+  
+    +updateInventory(): void {String itemID, Item item}
+    +readAllItems(): List<Items>
+    +readById(): Item {String itemID}
+  }
+
+  class VendingMachineDaoFileImpl <VendingMachineDao>{
+    -items: HashMap<String, Item>
+    -INVENTORY_FILE
+    -DELIMITER
+
+    -loadInventory(): void
+    -writeInventory(): void
+  }
+  
+  class VendingMachinePersistenceException{}
+  
+  interface VendingMachineAuditDao {
+    + writeAuditEntry(): void {String entry}
+  }
+  
+  class VendingMachineAuditDaoFileImpl {
+    +AUDIT_FILE
+  }
+
+  VendingMachineDao <|-down- VendingMachineDaoFileImpl: Implements
+  VendingMachineAuditDao <|-down- VendingMachineAuditDaoFileImpl: Implements
+  'VendingMachinePersistenceException <|-up- Exception: Exdends
+}
+
+package dto{
+  class Item{
+    -itemID: String
+    -itemName: String
+    -itemPrice: BigDecimal
+    -itemCount: int
+
+    +getItemID(): String
+    +getItemName(): String
+    +setItemName(): void {itemName: String}
+    +getItemPrice(): BigDecimal
+    +setItemPrice(): void {itemPrice: BigDecimal}
+    +getItemCount(): int
+    +setItemCount(): void {itemCount: int}
+  }
+  
+  class Change{
+   -total: BigDecimal
+   -pennies: int
+   -nickels: int
+   -dimes: int
+   -quarters: int
+   
+   +getTotal(): BigDecimal
+   +setTotal(): void {total: BigDecimal}
+   +getPennies(): int
+   +setPennies(): void {pennies: int}
+   +getNickels(): int
+   +setNickels(): void {nickels: int}
+   +getDimes(): int
+   +setDimes(): void {dimes: int}
+   +getQuarters(): int
+   +setQuarters(): void {quarters: int}
+ }
+ 
+ enum Coins{
+   PENNY
+   NICKEL
+   DIME
+   QUARTER
+ }
+}
+
+
+VendingMachineView *-up- UserIO: Composition
+VendingMachineView *-down- VendingMachineServiceLayer: Composition
+VendingMachineController *-up- VendingMachineServiceLayer: Composition
+VendingMachineController *-down- VendingMachineDao: Composition
+VendingMachineDaoFileImpl *-down- Item: Composition
+@enduml
+
+@startuml
+top to bottom direction
+
+package view{
+  class VendingMachineView {
+    -io: UserIO
+
+    +getMenuSelection(): String 
+    +getBalance(): BigDecimal
+
+    +displayMenuItems(): void {List<Item> items}
+    +displayChange(): void {Change change}
+
+    
+    +displayIntroBanner(): void
+    +displayExit Banner(): void
+    +displayErrorMessage(): void {String errorMsg}
+    +displayUnknownCommandBanner(): void
+    
+  }
+
+  interface UserIO{
+    +print(): void {msg: String}
+    +readDouble(): double {prompt: String}
+    +readDouble(): double {prompt: String, min: double, max: double}
+    +readFloat(): float {prompt: String}
+    +readFloat(): float {prompt: String, min: float, max: float}
+    +readInt(): int {prompt: String}
+    +readInt(): int {prompt: String, min: int, max: int}
+    +readLong(): long {prompt: String}
+    +readLong(): long {prompt: String, min: long, max: long}
+    +readBigDecimal(): BigDecimal {prompt: String}
+    +readBigDecimal(): BigDecimal {prompt: String, min: BigDecimal, max: BigDecimal}
+    +readString(): String {prompt: String}
+  }
+
+  class UserIOConsoleImpl <UserIO>{}
+
+  UserIO <|-down- UserIOConsoleImpl: Implements
+}
+
+package service{
+  interface VendingMachineServiceLayer{
+    +getAvailableItems(): List
+    +getItemById(): Item {String itemId}
+    +updateInventory(): void {String itemId, Item item}
+    +setBalance(): void {BigDecimal balance}
+    +getBalance(): void
+    +vend(): Change {String itemId}
+    +calculateChange(): Change {BigDecimal change}
+  }
+  
+  class VendingMachineServiceLayerImpl {
+  
+  }
+  
+  class VendingMachineInsufficientFundsException{}
+  class VendingMachineOutOfStockException{}
+  class VendingMachineNoItemInventoryException{}
+  
+  VendingMachineServiceLayer <|-down- VendingMachineServiceLayerImpl: Implements
+}
+
+package controller{
+  class VendingMachineController{
+    view: VendingMachineView
+    service: VendingMachineServiceLayer
+
+    +run(): void
+    -displayMenu(): void
+    -insertBalance(): void
+    -getMenuSelection(): String
+    -vend(): void String {String itemID}
+    
+    -unknownCommand(): void
+    -displayExitMessage(): void
+  }
+}
+
+package dao{
+  interface VendingMachineDao{
+  
+    +updateInventory(): void {String itemID, Item item}
+    +readAllItems(): List<Items>
+    +readById(): Item {String itemID}
+  }
+
+  class VendingMachineDaoFileImpl <VendingMachineDao>{
+    -items: HashMap<String, Item>
+    -INVENTORY_FILE
+    -DELIMITER
+
+    -loadInventory(): void
+    -writeInventory(): void
+  }
+  
+  class VendingMachinePersistenceException{}
+  
+  interface VendingMachineAuditDao {
+    + writeAuditEntry(): void {String entry}
+  }
+  
+  class VendingMachineAuditDaoFileImpl {
+    +AUDIT_FILE
+  }
+
+  VendingMachineDao <|-down- VendingMachineDaoFileImpl: Implements
+  VendingMachineAuditDao <|-down- VendingMachineAuditDaoFileImpl: Implements
+}
+
+package dto{
+  class Item{
+    -itemID: String
+    -itemName: String
+    -itemPrice: BigDecimal
+    -itemCount: int
+
+    +getItemID(): String
+    +getItemName(): String
+    +setItemName(): void {itemName: String}
+    +getItemPrice(): BigDecimal
+    +setItemPrice(): void {itemPrice: BigDecimal}
+    +getItemCount(): int
+    +setItemCount(): void {itemCount: int}
+  }
+  
+  class Change{
+   -total: BigDecimal
+   -pennies: int
+   -nickels: int
+   -dimes: int
+   -quarters: int
+   
+   +getTotal(): BigDecimal
+   +setTotal(): void {total: BigDecimal}
+   +getPennies(): int
+   +setPennies(): void {pennies: int}
+   +getNickels(): int
+   +setNickels(): void {nickels: int}
+   +getDimes(): int
+   +setDimes(): void {dimes: int}
+   +getQuarters(): int
+   +setQuarters(): void {quarters: int}
+ }
+ 
+ enum Coins{
+   PENNY
+   NICKEL
+   DIME
+   QUARTER
+ }
+}
+
+
+VendingMachineView *-up- UserIO: Composition
+VendingMachineView *-down- VendingMachineServiceLayer: Composition
+VendingMachineController *-up- VendingMachineServiceLayer: Composition
+VendingMachineController *-down- VendingMachineDao: Composition
+VendingMachineDaoFileImpl *-down- Item: Composition
+@enduml
+
+PlantUML version 1.2020.13(Sat Jun 13 12:26:38 UTC 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

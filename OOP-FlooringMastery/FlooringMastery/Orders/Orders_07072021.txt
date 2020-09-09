@@ -1,0 +1,4 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+18,Steven Brown,CA,25.00,Wood,1098,5.15,4.75,5654.70,5215.50,2717.55,13587.75
+4,Acme#*## Inc.,WA,9.25,Carpet,102,2.25,2.10,229.50,214.20,41.04,484.74
+6,Tammy Horn,CA,25.00,Laminate,107,1.75,2.10,187.25,224.70,102.99,514.94

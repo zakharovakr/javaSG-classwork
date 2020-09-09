@@ -1,0 +1,173 @@
+2020-07-21T14:14:47.821858 : addOrder: Date: 2023-09-08, order number: 2, customer name: Tommy', state: TX, product: Wood, area: 154, materialCost: 793.10, laborCost: 731.50, tax: 67.84, total: 1592.44.
+2020-07-21T14:25:40.434213 : addOrder: Date: 2021-01-01, order number: 1, customer name: Maria Hernandez, state: CA, product: Tile, area: 1234, materialCost: 4319.00, laborCost: 5121.10, tax: 2360.03, total: 11800.13.
+2020-07-21T14:38:31.003086 : displayOrders: 2025-08-07
+2020-07-21T14:39:16.792094 : addOrder: Date: 2021-01-01, order number: 1, customer name: Trudorudo, state: CA, product: Carpet, area: 543, materialCost: 1221.75, laborCost: 1140.30, tax: 590.51, total: 2952.56.
+2020-07-21T14:40:19.499992 : editOrder: 2021-01-011Date: null, order number: 1, customer name: Kristina Trudorudo, state: CA, product: Carpet, area: 543, materialCost: 1221.75, laborCost: 1140.30, tax: 590.51, total: 2952.56.
+2020-07-21T14:41:22.698147 : removeOrder: 2021-01-011
+2020-07-21T14:42:53.202995 : addOrder: Date: 2021-01-01, order number: 6, customer name: Yola, state: TX, product: Wood, area: 123, materialCost: 633.45, laborCost: 584.25, tax: 54.19, total: 1271.89.
+2020-07-21T14:44:14.031380 : editOrder: 2021-01-016Date: null, order number: 6, customer name: Yola Lima, state: CA, product: Wood, area: 123, materialCost: 633.45, laborCost: 584.25, tax: 304.43, total: 1522.13.
+2020-07-21T14:44:55.234119 : displayOrders: 2021-01-01
+2020-07-21T14:45:30.870566 : removeOrder: 2021-01-013
+2020-07-21T14:55:08.055794 : addOrder: Order was successfully added : Date: 2020-12-12, order number: 1, customer name: Tomas Mann, state: CA, product: Tile, area: 12345, materialCost: 43207.50, laborCost: 51231.75, tax: 23609.81, total: 118049.06.
+2020-07-21T15:00:30.153549 : removeOrder: 2023-09-08, 2, 
+2020-07-21T15:50:07.479504 : removeOrder: 2020-12-12: 1: 
+2020-07-21T18:05:22.621230 : displayOrders: 2025-08-07: 
+2020-07-22T12:24:09.670230 : addOrder: Order was successfully added : Date: 2021-04-05, order number: 1, customer name: Taylor, state: TX, product: Wood, area: 1234, materialCost: 6355.10, laborCost: 5861.50, tax: 543.64, total: 12760.24.
+2020-07-22T12:29:53.918757 : addOrder: Order was successfully added : Date: 2021-07-07, order number: 1, customer name: Tom, state: CA, product: Carpet, area: 123, materialCost: 276.75, laborCost: 258.30, tax: 133.76, total: 668.81.
+2020-07-22T12:30:20.743897 : displayOrders: 2021-07-07: 
+2020-07-22T12:31:54.907795 : addOrder: Order was successfully added : Date: 2021-07-07, order number: 2, customer name: Tim, state: TX, product: Wood, area: 123, materialCost: 633.45, laborCost: 584.25, tax: 54.19, total: 1271.89.
+2020-07-22T12:35:16.040178 : displayOrders: 2021-07-07: 
+2020-07-22T19:48:03.051683 : addOrder: Order was successfully added : Date: 2021-02-03, order number: 1, customer name: Roy, state: TX, product: Wood, area: 123, materialCost: 633.45, laborCost: 584.25, tax: 54.19, total: 1271.89.
+2020-07-22T19:49:53.929038 : displayOrders: 2021-02-03: 
+2020-07-22T20:10:16.644008 : displayOrders: 2021-01-01: 
+2020-07-22T21:28:15.482224 : addOrder: Order was successfully added : Date: 2027-01-02, order number: 1, customer name: Uya, state: CA, product: Wood, area: 154, materialCost: 793.10, laborCost: 731.50, tax: 381.15, total: 1905.75.
+2020-07-22T21:28:41.925022 : displayOrders: 2021-02-03: 
+2020-07-22T21:29:32.039756 : editOrder: 2021-02-03: 2: Date: null, order number: 2, customer name: Ty, state: TX, product: Wood, area: 123, materialCost: 633.45, laborCost: 584.25, tax: 54.19, total: 1271.89.: 
+2020-07-22T21:30:05.436399 : removeOrder: 2021-02-03: 2: 
+2020-07-22T21:30:49.038803 : addOrder: Order was successfully added : Date: 2021-02-03, order number: 7, customer name: Tga, state: CA, product: Wood, area: 123, materialCost: 633.45, laborCost: 584.25, tax: 304.43, total: 1522.13.
+2020-07-22T21:31:48.279675 : addOrder: Order was successfully added : Date: 2020-12-13, order number: 1, customer name: Yta, state: CA, product: Wood, area: 123, materialCost: 633.45, laborCost: 584.25, tax: 304.43, total: 1522.13.
+2020-07-22T21:39:20.551517 : displayOrders: 2021-04-05: 
+2020-07-22T21:41:04.862030 : editOrder: 2021-04-05: 3: Date: null, order number: 3, customer name: Tim Blook, state: CA, product: Wood, area: 1234, materialCost: 6355.10, laborCost: 5861.50, tax: 3054.15, total: 15270.75.: 
+2020-07-22T21:41:43.176948 : removeOrder: 2021-04-05: 6: 
+2020-07-22T22:32:58.535547 : addOrder: Order was successfully added : Date: 2028-08-06, order number: 1, customer name: Ytag, state: TX, product: Wood, area: 123, materialCost: 633.45, laborCost: 584.25, tax: 54.19, total: 1271.89.
+2020-07-22T22:58:18.107596 : addOrder: Order was successfully added : Date: 2020-12-19, order number: 1, customer name: Farra Hoyun, state: CA, product: Wood, area: 123, materialCost: 633.45, laborCost: 584.25, tax: 304.43, total: 1522.13.
+2020-07-22T23:14:19.891199 : addOrder: Order was successfully added : Date: 2021-01-01, order number: 1, customer name: Kristina, state: CA, product: Wood, area: 123, materialCost: 633.45, laborCost: 584.25, tax: 304.43, total: 1522.13.
+2020-07-22T23:15:34.698405 : addOrder: Order was successfully added : Date: 2021-01-01, order number: 2, customer name: TAnia, state: CA, product: Carpet, area: 1000, materialCost: 2250.00, laborCost: 2100.00, tax: 1087.50, total: 5437.50.
+2020-07-22T23:16:00.591063 : addOrder: Order was successfully added : Date: 2021-01-01, order number: 3, customer name: Acme, Inc., state: TX, product: Tile, area: 543, materialCost: 1900.50, laborCost: 2253.45, tax: 184.85, total: 4338.80.
+2020-07-22T23:16:18.735911 : displayOrders: 2021-01-01: 
+2020-07-24T10:56:51.054867 : displayOrders: 2021-01-01: 
+2020-07-24T11:35:56.757832 : addOrder: Order was successfully added : Date: 2021-01-02, order number: 1, customer name: Acme, Inc., state: CA, product: Laminate, area: 543, materialCost: 950.25, laborCost: 1140.30, tax: 522.64, total: 2613.19.
+2020-07-24T12:00:32.487097 : addOrder: Order was successfully added : Date: 2021-03-01, order number: 1, customer name: Tang, state: KY, product: Wood, area: 764, materialCost: 3934.60, laborCost: 3629.00, tax: 453.82, total: 8017.42.
+2020-07-24T12:03:25.706237 : addOrder: Order was successfully added : Date: 2021-09-08, order number: 1, customer name: Tagng, state: CA, product: Wood, area: 764, materialCost: 3934.60, laborCost: 3629.00, tax: 1890.90, total: 9454.50.
+2020-07-24T12:05:03.650529 : addOrder: Order was successfully added : Date: 2021-09-08, order number: 2, customer name: Hank, state: TX, product: Wood, area: 986, materialCost: 5077.90, laborCost: 4683.50, tax: 434.38, total: 10195.78.
+2020-07-24T12:05:35.187280 : displayOrders: 2021-09-08: 
+2020-07-24T15:17:05.386210 : addOrder: Order was successfully added : Date: 2021-09-06, order number: 1, customer name: Tania Hank, state: TX, product: Wood, area: 243, materialCost: 1251.45, laborCost: 1154.25, tax: 107.05, total: 2512.75.
+2020-07-24T15:28:52.978688 : addOrder: Order was successfully added : Date: 2021-09-06, order number: 2, customer name: Carry Shine, state: TX, product: Carpet, area: 167, materialCost: 375.75, laborCost: 350.70, tax: 32.33, total: 758.78.
+2020-07-24T15:31:36.296211 : editOrder: 2021-09-06: 2: Date: null, order number: 2, customer name: Carry, Acme, Inc., state: CA, product: Laminate, area: 167, materialCost: 292.25, laborCost: 350.70, tax: 160.74, total: 803.69.: 
+2020-07-24T15:32:03.329603 : displayOrders: 2021-09-06: 
+2020-07-24T15:32:36.983003 : removeOrder: 2021-09-06: 1: 
+2020-07-24T15:33:45.472924 : addOrder: Order was successfully added : Date: 2021-09-06, order number: 3, customer name: Kristina Zakharova, state: KY, product: Carpet, area: 198, materialCost: 445.50, laborCost: 415.80, tax: 51.68, total: 912.98.
+2020-07-24T15:47:01.995406 : editOrder: 2020-12-19: 1: Date: null, order number: 1, customer name: Farra Hoyun, state: CA, product: Wood, area: 123, materialCost: 633.45, laborCost: 584.25, tax: 304.43, total: 1522.13.: 
+2020-07-24T15:52:17.408108 : addOrder: Order was successfully added : Date: 2020-12-19, order number: 2, customer name: Kyle, state: CA, product: Carpet, area: 100.5, materialCost: 226.13, laborCost: 211.05, tax: 109.30, total: 546.48.
+2020-07-24T15:58:37.472371 : editOrder: 2020-12-19: 1: Date: null, order number: 1, customer name: Farra Hoyun, state: CA, product: Wood, area: 100, materialCost: 515.00, laborCost: 475.00, tax: 247.50, total: 1237.50.: 
+2020-07-24T15:59:27.508689 : editOrder: 2020-12-19: 1: Date: null, order number: 1, customer name: Farra Hoyun, state: CA, product: Wood, area: 100.86, materialCost: 519.43, laborCost: 479.09, tax: 249.63, total: 1248.15.: 
+2020-07-24T16:18:27.900220 : removeOrder: 2020-12-19: 2: 
+2020-07-24T16:21:36.896 : removeOrder: 2021-09-06: 3: 
+2020-07-24T16:29:31.754510 : removeOrder: 2021-09-06: 2: 
+2020-07-24T16:34:52.169350 : removeOrder: 2021-09-06: 1: 
+2020-07-24T16:38:06.465568 : removeOrder: 2021-09-06: 1: 
+2020-07-24T16:43:32.414206 : removeOrder: 2021-09-06: 1: 
+2020-07-24T16:45:28.212489 : removeOrder: 2021-09-06: 1: 
+2020-07-25T14:09:49.491968 : displayOrders: 2020-12-19: 
+2020-07-26T14:13:43.042816 : addOrder: Order was successfully added : Date: 2021-04-06, order number: 1, customer name: Kristina Zakharova, state: WA, product: Wood, area: 109, materialCost: 561.35, laborCost: 517.75, tax: 99.82, total: 1178.92.
+2020-07-26T23:52:37.288464 : addOrder: Order was successfully added : Date: 2021-05-07, order number: 1, customer name: Acme,Inc., state: CA, product: Wood, area: 1023, materialCost: 5268.45, laborCost: 4859.25, tax: 2531.93, total: 12659.63.
+2020-07-27T09:35:50.834839 : displayOrders: 2021-04-06: 
+2020-07-27T09:36:25.104298 : addOrder: Order was successfully added : Date: 2021-04-06, order number: 2, customer name: Tammy, state: CA, product: Carpet, area: 1876, materialCost: 4221.00, laborCost: 3939.60, tax: 2040.15, total: 10200.75.
+2020-07-27T09:36:31.474963 : displayOrders: 2021-04-06: 
+2020-07-27T09:37:06.192387 : editOrder: 2021-04-06: 2: Date: null, order number: 2, customer name: Tammy Horn, state: WA, product: Carpet, area: 1876, materialCost: 4221.00, laborCost: 3939.60, tax: 754.86, total: 8915.46.: 
+2020-07-27T09:37:37.828188 : editOrder: 2021-04-06: 2: Date: null, order number: 2, customer name: Tammy Horn, state: WA, product: Carpet, area: 109, materialCost: 245.25, laborCost: 228.90, tax: 43.86, total: 518.01.: 
+2020-07-27T09:50:10.021917 : displayOrders: Orders were successfully displayed : 2021-04-06
+2020-07-27T09:52:55.186105 : addOrder: Order was successfully added : Date: 2021-09-08, order number: 3, customer name: Flooring,., Corp,, state: CA, product: Tile, area: 1000, materialCost: 3500.00, laborCost: 4150.00, tax: 1912.50, total: 9562.50.
+2020-07-27T09:55:19.362332 : editOrder: Order was successfully edited : 2021-09-083Date: 2021-09-08, order number: 3, customer name: FlooringCorp.,..., state: WA, product: Wood, area: 109, materialCost: 561.35, laborCost: 517.75, tax: 99.82, total: 1178.92.
+2020-07-27T10:01:23.040280 : displayOrders: Orders were successfully displayed : 2021-09-08
+2020-07-27T10:01:50.064025 : removeOrder: Order was successfully removed : 2021-09-082
+2020-07-27T10:24:23.116379 : editOrder: Order was successfully edited : 2021-01-011Date: null, order number: 1, customer name: Kris, state: CA, product: Wood, area: 100, materialCost: 515.00, laborCost: 475.00, tax: 247.50, total: 1237.50.
+2020-07-27T10:25:57.442378 : editOrder: Order was successfully edited : 2021-01-011Date: null, order number: 1, customer name: Kris, state: CA, product: Wood, area: 109, materialCost: 561.35, laborCost: 517.75, tax: 269.78, total: 1348.88.
+2020-07-27T10:26:18.224007 : displayOrders: Orders were successfully displayed : 2021-01-01
+2020-07-27T10:26:26.528980 : exportAllData: All orders were successfully exported : 
+2020-07-27T10:50:19.734166 : displayOrders: Orders were successfully displayed : 2021-04-06
+2020-07-27T10:51:19.219030 : addOrder: Order was successfully added : Date: 2021-04-06, order number: 3, customer name: Tom Muchow, state: WA, product: Laminate, area: 108, materialCost: 189.00, laborCost: 226.80, tax: 38.46, total: 454.26.
+2020-07-27T10:57:10.670733 : exportAllData: All orders were successfully exported : 
+2020-07-27T11:06:44.543527 : exportAllData: All orders were successfully exported : 
+2020-07-27T11:07:03.465930 : displayOrders: Orders were successfully displayed : 2021-01-01
+2020-07-27T11:07:36.929211 : addOrder: Order was successfully added : Date: 2021-01-01, order number: 2, customer name: Tania, state: TX, product: Wood, area: 1986, materialCost: 10227.90, laborCost: 9433.50, tax: 874.93, total: 20536.33.
+2020-07-27T11:08:15.282379 : editOrder: Order was successfully edited : 2021-01-012Date: 2021-01-01, order number: 2, customer name: Tania Novik, state: TX, product: Wood, area: 1986, materialCost: 10227.90, laborCost: 9433.50, tax: 874.93, total: 20536.33.
+2020-07-27T11:08:38.990771 : removeOrder: Order was successfully removed : [Ljava.lang.Object;@4c1f22f3
+2020-07-27T11:08:49.805424 : exportAllData: All orders were successfully exported : 
+2020-07-27T11:21:01.905929 : displayOrders: Orders were successfully displayed : 2021-01-01
+2020-07-27T11:23:54.171924 : displayOrders: Orders were successfully displayed : 2021-04-06
+2020-07-27T11:25:56.677026 : addOrder: Order was successfully added : Date: 2022-05-05, order number: 1, customer name: Acme, Inc., state: TX, product: Wood, area: 180, materialCost: 927.00, laborCost: 855.00, tax: 79.30, total: 1861.30.
+2020-07-27T11:27:46.255895 : addOrder: Order was successfully added : Date: 2020-12-12, order number: 1, customer name: Acme, Inc., state: TX, product: Carpet, area: 100, materialCost: 225.00, laborCost: 210.00, tax: 19.36, total: 454.36.
+2020-07-27T11:33:37.994319 : displayOrders: Orders were successfully displayed : 2021-01-01
+2020-07-27T11:34:01.261983 : addOrder: Order was successfully added : Date: 2021-06-06, order number: 1, customer name: Tom, state: CA, product: Wood, area: 100, materialCost: 515.00, laborCost: 475.00, tax: 247.50, total: 1237.50.
+2020-07-27T11:36:05.391165 : displayOrders: Orders were successfully displayed : 2021-01-01
+2020-07-27T11:36:32.678654 : addOrder: Order was successfully added : Date: 2021-07-07, order number: 1, customer name: Tom, state: TX, product: Wood, area: 100, materialCost: 515.00, laborCost: 475.00, tax: 44.06, total: 1034.06.
+2020-07-27T11:42:56.076215 : displayOrders: Orders were successfully displayed : 2021-01-01
+2020-07-27T11:43:36.662123 : addOrder: Order was successfully added : Date: 2021-04-06, order number: 4, customer name: tammy, state: CA, product: Wood, area: 100, materialCost: 515.00, laborCost: 475.00, tax: 247.50, total: 1237.50.
+2020-07-27T11:44:14.667690 : addOrder: Order was successfully added : Date: 2021-09-09, order number: 1, customer name: tan, state: CA, product: Wood, area: 100, materialCost: 515.00, laborCost: 475.00, tax: 247.50, total: 1237.50.
+2020-07-27T11:51:51.339011 : displayOrders: Orders were successfully displayed : 2021-01-01
+2020-07-27T11:52:16.350360 : addOrder: Order was successfully added : Date: 2021-01-02, order number: 3, customer name: Kris, state: CA, product: Wood, area: 100, materialCost: 515.00, laborCost: 475.00, tax: 247.50, total: 1237.50.
+2020-07-27T11:53:07.145406 : addOrder: Order was successfully added : Date: 2021-07-07, order number: 4, customer name: Acme, Inc., state: WA, product: Carpet, area: 102, materialCost: 229.50, laborCost: 214.20, tax: 41.04, total: 484.74.
+2020-07-27T11:53:55.607556 : addOrder: Order was successfully added : Date: 2021-07-07, order number: 5, customer name: Tom, state: TX, product: Tile, area: 1000, materialCost: 3500.00, laborCost: 4150.00, tax: 340.43, total: 7990.43.
+2020-07-27T11:54:46.700188 : addOrder: Order was successfully added : Date: 2021-07-07, order number: 6, customer name: Tammy, state: CA, product: Laminate, area: 107, materialCost: 187.25, laborCost: 224.70, tax: 102.99, total: 514.94.
+2020-07-27T11:55:01.722466 : displayOrders: Orders were successfully displayed : 2021-07-07
+2020-07-27T11:55:32.085458 : addOrder: Order was successfully added : Date: 2021-09-09, order number: 7, customer name: Tech, state: CA, product: Wood, area: 100, materialCost: 515.00, laborCost: 475.00, tax: 247.50, total: 1237.50.
+2020-07-27T12:07:25.039001 : editOrder: Order was successfully edited : 2021-07-075Date: null, order number: 0, customer name: Tom, state: CA, product: Tile, area: 109, materialCost: 381.50, laborCost: 452.35, tax: 208.46, total: 1042.31.
+2020-07-27T12:09:15.194405 : editOrder: Order was successfully edited : 2021-07-076Date: null, order number: 6, customer name: Tammy Horn, state: CA, product: Laminate, area: 107, materialCost: 187.25, laborCost: 224.70, tax: 102.99, total: 514.94.
+2020-07-27T12:10:58.777737 : displayOrders: Orders were successfully displayed : 2021-07-07
+2020-07-27T12:11:26.968120 : addOrder: Order was successfully added : Date: 2021-08-08, order number: 8, customer name: Kristina, state: CA, product: Tile, area: 200, materialCost: 700.00, laborCost: 830.00, tax: 382.50, total: 1912.50.
+2020-07-27T12:12:06.256948 : addOrder: Order was successfully added : Date: 2021-08-08, order number: 9, customer name: Tania Novik, state: WA, product: Wood, area: 100, materialCost: 515.00, laborCost: 475.00, tax: 91.58, total: 1081.58.
+2020-07-27T12:12:48.636954 : editOrder: Order was successfully edited : 2021-08-088Date: null, order number: 8, customer name: Kristina Zakharova, Acme, Inc., state: WA, product: Tile, area: 200, materialCost: 700.00, laborCost: 830.00, tax: 141.53, total: 1671.53.
+2020-07-27T12:13:13.825349 : removeOrder: Order was successfully removed : [Ljava.lang.Object;@4c1f22f3
+2020-07-27T12:13:41.241805 : addOrder: Order was successfully added : Date: 2021-08-08, order number: 9, customer name: Tania, state: CA, product: Wood, area: 200, materialCost: 1030.00, laborCost: 950.00, tax: 495.00, total: 2475.00.
+2020-07-27T12:16:07.499981 : addOrder: Order was successfully added : Date: 2021-01-01, order number: 10, customer name: Maggy, state: TX, product: Wood, area: 2097, materialCost: 10799.55, laborCost: 9960.75, tax: 923.83, total: 21684.13.
+2020-07-27T12:18:53.264012 : displayOrders: Orders were successfully displayed : 2021-07-07
+2020-07-27T12:19:25.897197 : addOrder: Order was successfully added : Date: 2021-01-01, order number: 11, customer name: Tom, state: TX, product: Laminate, area: 354, materialCost: 619.50, laborCost: 743.40, tax: 60.65, total: 1423.55.
+2020-07-27T12:19:48.666269 : displayOrders: Orders were successfully displayed : 2021-01-01
+2020-07-27T12:20:09.568501 : addOrder: Order was successfully added : Date: 2021-10-10, order number: 12, customer name: Rory, state: CA, product: Wood, area: 100, materialCost: 515.00, laborCost: 475.00, tax: 247.50, total: 1237.50.
+2020-07-27T12:23:25.749832 : displayOrders: Orders were successfully displayed : 2021-10-10
+2020-07-27T12:24:07.794360 : editOrder: Order was successfully edited : 2021-10-1012Date: null, order number: 12, customer name: Rory Hanks, state: CA, product: Wood, area: 100, materialCost: 515.00, laborCost: 475.00, tax: 247.50, total: 1237.50.
+2020-07-27T12:24:35.084590 : addOrder: Order was successfully added : Date: 2021-11-12, order number: 13, customer name: Tam, state: KY, product: Wood, area: 176, materialCost: 906.40, laborCost: 836.00, tax: 104.54, total: 1846.94.
+2020-07-27T12:25:11.013885 : editOrder: Order was successfully edited : 2021-01-0111Date: null, order number: 11, customer name: Tom Jennings, state: TX, product: Laminate, area: 354, materialCost: 619.50, laborCost: 743.40, tax: 60.65, total: 1423.55.
+2020-07-27T12:25:26.174461 : displayOrders: Orders were successfully displayed : 2021-01-01
+2020-07-27T12:26:04.195469 : editOrder: Order was successfully edited : 2021-09-097Date: null, order number: 7, customer name: TechHire OpenCode,..., state: CA, product: Wood, area: 100, materialCost: 515.00, laborCost: 475.00, tax: 247.50, total: 1237.50.
+2020-07-27T12:27:54.882428 : displayOrders: Orders were successfully displayed : 2021-09-09
+2020-07-27T12:28:18.111351 : displayOrders: Orders were successfully displayed : 2021-09-09
+2020-07-27T12:28:46.217828 : addOrder: Order was successfully added : Date: 2021-09-09, order number: 14, customer name: Kris, state: CA, product: Wood, area: 198, materialCost: 1019.70, laborCost: 940.50, tax: 490.05, total: 2450.25.
+2020-07-27T12:28:58.392840 : displayOrders: Orders were successfully displayed : 2021-10-10
+2020-07-27T12:31:10.350858 : displayOrders: Orders were successfully displayed : 2021-10-10
+2020-07-27T12:32:04.576861 : addOrder: Order was successfully added : Date: 2021-11-12, order number: 15, customer name: Tang, state: TX, product: Tile, area: 100, materialCost: 350.00, laborCost: 415.00, tax: 34.04, total: 799.04.
+2020-07-27T12:34:01.950349 : displayOrders: Orders were successfully displayed : 2021-11-12
+2020-07-27T12:34:37.264419 : addOrder: Order was successfully added : Date: 2021-01-01, order number: 16, customer name: Rory, state: CA, product: Tile, area: 154, materialCost: 539.00, laborCost: 639.10, tax: 294.53, total: 1472.63.
+2020-07-27T12:35:00.979904 : displayOrders: Orders were successfully displayed : 2021-01-01
+2020-07-27T12:35:27.868959 : editOrder: Order was successfully edited : 2021-01-0116Date: null, order number: 16, customer name: Rory Pattison, state: CA, product: Tile, area: 154, materialCost: 539.00, laborCost: 639.10, tax: 294.53, total: 1472.63.
+2020-07-27T12:40:41.205507 : displayOrders: Orders were successfully displayed : 2021-10-10
+2020-07-27T12:41:29.196041 : addOrder: Order was successfully added : Date: 2021-11-11, order number: 16, customer name: Hank, state: WA, product: Wood, area: 666, materialCost: 3429.90, laborCost: 3163.50, tax: 609.89, total: 7203.29.
+2020-07-27T12:41:59.988331 : displayOrders: Orders were successfully displayed : 2021-07-07
+2020-07-27T12:42:51.575862 : addOrder: Order was successfully added : Date: 2021-11-11, order number: 17, customer name: Wendy, state: CA, product: Wood, area: 265, materialCost: 1364.75, laborCost: 1258.75, tax: 655.88, total: 3279.38.
+2020-07-27T12:43:38.088101 : editOrder: Order was successfully edited : 2021-09-097Date: null, order number: 7, customer name: TechHire OpenCode,..., state: TX, product: Wood, area: 100, materialCost: 515.00, laborCost: 475.00, tax: 44.06, total: 1034.06.
+2020-07-27T12:44:16.722163 : removeOrder: Order was successfully removed : [Ljava.lang.Object;@41e68d87
+2020-07-27T12:44:30.714626 : exportAllData: All orders were successfully exported : 
+2020-07-27T12:45:25.547419 : displayOrders: Orders were successfully displayed : 2021-11-12
+2020-07-27T12:45:46.028229 : removeOrder: Order was successfully removed : [Ljava.lang.Object;@49ff7d8c
+2020-07-27T12:46:33.636665 : displayOrders: Orders were successfully displayed : 2021-10-10
+2020-07-27T12:47:31.640801 : addOrder: Order was successfully added : Date: 2021-07-07, order number: 18, customer name: Steven, state: CA, product: Wood, area: 1098, materialCost: 5654.70, laborCost: 5215.50, tax: 2717.55, total: 13587.75.
+2020-07-27T12:48:02.321464 : displayOrders: Orders were successfully displayed : 2021-07-07
+2020-07-27T12:48:38.736758 : removeOrder: Order was successfully removed : [Ljava.lang.Object;@29526c05
+2020-07-27T12:48:49.364597 : displayOrders: Orders were successfully displayed : 2021-07-07
+2020-07-27T12:49:24.599888 : exportAllData: All orders were successfully exported : 
+2020-07-27T13:13:27.369168 : displayOrders: Orders were successfully displayed : 2021-07-07
+2020-07-27T13:14:02.680566 : addOrder: Order was successfully added : Date: 2020-10-16, order number: 19, customer name: Ruaridh, state: KY, product: Laminate, area: 187, materialCost: 327.25, laborCost: 392.70, tax: 43.20, total: 763.15.
+2020-07-27T13:14:35.649637 : displayOrders: Orders were successfully displayed : 2021-08-08
+2020-07-27T13:15:26.086075 : editOrder: Order was successfully edited : 2021-07-0718Date: null, order number: 18, customer name: Steven Brown, state: CA, product: Wood, area: 1098, materialCost: 5654.70, laborCost: 5215.50, tax: 2717.55, total: 13587.75.
+2020-07-27T13:15:38.668863 : exportAllData: All orders were successfully exported : 
+2020-07-27T13:18:12.611664 : addOrder: Order was successfully added : Date: 2020-12-12, order number: 20, customer name: Kristina, state: CA, product: Laminate, area: 165, materialCost: 288.75, laborCost: 346.50, tax: 158.81, total: 794.06.
+2020-07-27T13:18:53.235502 : removeOrder: Order was successfully removed : [Ljava.lang.Object;@5a755cc1
+2020-07-27T13:18:59.483466 : exportAllData: All orders were successfully exported : 
+2020-07-27T13:20:01.755433 : editOrder: Order was successfully edited : 2020-12-1220Date: null, order number: 20, customer name: Kristina Zakharova, state: CA, product: Laminate, area: 165, materialCost: 288.75, laborCost: 346.50, tax: 158.81, total: 794.06.
+2020-07-27T13:20:04.815853 : exportAllData: All orders were successfully exported : 
+2020-07-27T13:20:31.152196 : exportAllData: All orders were successfully exported : 
+2020-07-27T13:23:36.304514 : addOrder: Order was successfully added : Date: 2020-11-17, order number: 21, customer name: Hank, state: CA, product: Wood, area: 176, materialCost: 906.40, laborCost: 836.00, tax: 435.60, total: 2178.00.
+2020-07-27T13:24:27.226532 : addOrder: Order was successfully added : Date: 2020-11-17, order number: 22, customer name: Norma, state: WA, product: Tile, area: 765, materialCost: 2677.50, laborCost: 3174.75, tax: 541.33, total: 6393.58.
+2020-07-27T13:24:49.048695 : displayOrders: Orders were successfully displayed : 2020-10-16
+2020-07-27T13:25:15.277175 : addOrder: Order was successfully added : Date: 2020-11-17, order number: 23, customer name: Tom, state: TX, product: Carpet, area: 666, materialCost: 1498.50, laborCost: 1398.60, tax: 128.92, total: 3026.02.
+2020-07-27T13:29:41.013965 : displayOrders: Orders were successfully displayed : 2020-11-17
+2020-07-27T13:29:53.505876 : exportAllData: All orders were successfully exported : 
+2020-07-27T14:01:21.050265 : displayOrders: Orders were successfully displayed : 2021-07-07
+2020-07-27T14:01:57.722878 : addOrder: Order was successfully added : Date: 2020-09-09, order number: 24, customer name: Tom, state: CA, product: Wood, area: 100, materialCost: 515.00, laborCost: 475.00, tax: 247.50, total: 1237.50.
+2020-07-27T14:02:28.050118 : exportAllData: All orders were successfully exported : 
+2020-07-27T14:04:50.213227 : editOrder: Order was successfully edited : 2021-09-097Date: null, order number: 7, customer name: TechHire OpenCode,..., state: CA, product: Wood, area: 200, materialCost: 1030.00, laborCost: 950.00, tax: 495.00, total: 2475.00.
+2020-07-27T14:05:22.374782 : removeOrder: Order was successfully removed : [Ljava.lang.Object;@5ddf0d24
+2020-08-01T16:23:18.770914 : exportAllData: All orders were successfully exported : 
+2020-08-01T16:24:35.787147 : removeOrder: Order was successfully removed : [Ljava.lang.Object;@5be46f9d
+2020-08-01T16:24:54.876641 : exportAllData: All orders were successfully exported : 

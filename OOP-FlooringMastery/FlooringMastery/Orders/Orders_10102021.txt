@@ -1,0 +1,2 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+12,Rory Hanks,CA,25.00,Wood,100,5.15,4.75,515.00,475.00,247.50,1237.50

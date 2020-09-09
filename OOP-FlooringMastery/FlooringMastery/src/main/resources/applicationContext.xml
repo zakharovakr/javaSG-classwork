@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+          http://www.springframework.org/schema/beans/spring-beans.xsd
+          http://www.springframework.org/schema/mvc
+          http://www.springframework.org/schema/mvc/spring-mvc.xsd
+          http://www.springframework.org/schema/tx
+          http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+          http://www.springframework.org/schema/context
+          http://www.springframework.org/schema/context/spring-context.xsd
+          http://www.springframework.org/schema/aop
+          http://www.springframework.org/schema/aop/spring-aop-3.2.xsd">
+
+    <!--io-->
+    <bean id="io" class="com.zakharovakr.flooringmastery.view.UserIOConsoleImpl" />
+    <!--daos-->
+    <bean id="orderDao" class="com.zakharovakr.flooringmastery.dao.OrderDaoFileImpl" />
+    <bean id="productDao" class="com.zakharovakr.flooringmastery.dao.ProductDaoFileImpl" />
+    <bean id="taxDao" class="com.zakharovakr.flooringmastery.dao.TaxDaoFileImpl" />
+    <bean id="exportDao" class="com.zakharovakr.flooringmastery.dao.ExportDaoFileImpl" />
+    <bean id="auditDao" class="com.zakharovakr.flooringmastery.dao.FlooringAuditDaoFileImpl" />
+    <!--view-->
+    <bean id="view" class="com.zakharovakr.flooringmastery.view.FlooringView">
+        <constructor-arg ref="io" />
+    </bean>
+    <!--service-->
+    <bean id="service" class="com.zakharovakr.flooringmastery.service.FlooringServiceLayerImpl">
+        <constructor-arg ref="orderDao"/>
+        <constructor-arg ref="productDao"/>
+        <constructor-arg ref="taxDao"/>
+        <constructor-arg ref="exportDao"/>
+        <constructor-arg ref="auditDao"/>
+    </bean>
+    <!--controller-->
+    <bean id="controller" class="com.zakharovakr.flooringmastery.controller.FlooringController">
+        <constructor-arg ref="service"/>
+        <constructor-arg ref="view" />
+    </bean>
+
+    <bean id="loggingAdvice" class="com.zakharovakr.flooringmastery.advice.LoggingAdvice">
+        <constructor-arg ref="auditDao"/>
+    </bean>
+
+    <aop:config>
+        <aop:aspect ref="loggingAdvice">
+            <aop:after-returning
+                    method="createFormattedAuditEntryAdd"
+                    pointcut="execution(* com.zakharovakr.flooringmastery.service.FlooringServiceLayerImpl.addOrder(..))"
+            />
+            <aop:after-returning
+                    method="createFormattedAuditEntryRemove"
+                    pointcut="execution(* com.zakharovakr.flooringmastery.service.FlooringServiceLayerImpl.removeOrder(..))"
+            />
+            <aop:after-returning
+                    method="createFormattedAuditEntryEdit"
+                    pointcut="execution(* com.zakharovakr.flooringmastery.service.FlooringServiceLayerImpl.editOrder(..))"
+            />
+            <aop:after-returning
+                    method="createFormattedAuditEntryDisplayAll"
+                    pointcut="execution(* com.zakharovakr.flooringmastery.service.FlooringServiceLayerImpl.displayOrders(..))"
+            />
+            <aop:after-returning
+                    method="createFormattedAuditEntryExport"
+                    pointcut="execution(* com.zakharovakr.flooringmastery.service.FlooringServiceLayerImpl.exportAllData(..))"
+            />
+        </aop:aspect>
+    </aop:config>
+
+</beans>

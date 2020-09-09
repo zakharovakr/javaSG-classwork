@@ -1,0 +1,3 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+21,Hank,CA,25.00,Wood,176,5.15,4.75,906.40,836.00,435.60,2178.00
+23,Tom,TX,4.45,Carpet,666,2.25,2.10,1498.50,1398.60,128.92,3026.02
