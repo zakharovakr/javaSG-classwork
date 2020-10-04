@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vending Machine</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="header-main">Vending Machine</h1>
+        <hr>
+    </header>
+
+    <main class="container">
+        <div class="items-menu">
+            <!--Mock data
+            <div id="vendingItem">
+                <p class="item-data item-id">1</p>
+                <p class="item-data item-name">Sniskers</p>
+                <p class="item-data item-price">$1.85</p>
+                <p class="item-data item-quantity">Quantity Left: 10</p>
+            </div>
+            <div id="vendingItem">
+                <p class="item-data item-id">1</p>
+                <p class="item-data item-name">Sniskers</p>
+                <p class="item-data item-price">$1.85</p>
+                <p class="item-data item-quantity">Quantity Left: 10</p>
+            </div>
+            <div id="vendingItem">
+                <p class="item-data item-id">1</p>
+                <p class="item-data item-name">Sniskers</p>
+                <p class="item-data item-price">$1.85</p>
+                <p class="item-data item-quantity">Quantity Left: 10</p>
+            </div>
+            <div id="vendingItem">
+                <p class="item-data item-id">1</p>
+                <p class="item-data item-name">Sniskers</p>
+                <p class="item-data item-price">$1.85</p>
+                <p class="item-data item-quantity">Quantity Left: 10</p>
+            </div>
+            <div id="vendingItem">
+                <p class="item-data item-id">1</p>
+                <p class="item-data item-name">Sniskers</p>
+                <p class="item-data item-price">$1.85</p>
+                <p class="item-data item-quantity">Quantity Left: 10</p>
+            </div>-->
+        </div>
+
+        <div class="side-menu">
+            
+                <div class="balanceInput">
+                    <label for="balanceOutput" class="label">Total $ In</label>
+                    <input type="text" class="form-control" id="balanceOutput" placeholder="0.00" readonly>
+
+                    <div class="inputButtons">
+                        <button type="button" class="btn balanceButton" data-balanceID="100">Add
+                            Dollar</button>
+                        <button type="button" class="btn balanceButton" data-balanceID="25">Add Quarter</button>
+                        <button type="button" class="btn balanceButton" data-balanceID="10">Add Dime</button>
+                        <button type="button" class="btn balanceButton" data-balanceID="5">Add Nickel</button>
+                    </div>
+                </div>
+
+                <div class="messages">
+
+                    <label for="messageOutput" class="label">Messages</label>
+                    <input type="text" class="form-control" id="messageOutput" readonly>
+                    <div class="itemLabel">
+                        <label for="itemIDOutput">Item: </label>
+                        <input type="number" id="itemIDOutput" readonly>
+                    </div>
+                    <button type="button" class="btn purchaseButton" id="purchaseButton">Make Purchase</button>
+                </div>
+
+                <div class="change">
+                    <label for="changeOutput" class="label">Change</label>
+                    <input type="text" class="form-control" id="changeOutput" readOnly>
+                    <button type="button" class="btn" id="changeButton">Change Return</button>
+                </div>
+            </div>
+    </main>
+
+    <footer class="page-footer">
+        <p class="copyright">© <a href="https://github.com/zakharovakr" target="_blank">Kristina Zakharova</a></p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"
+        integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="js/dataService.js"></script>
+    <script src="js/home.js"></script>
+
+</body>
+
+</html>
